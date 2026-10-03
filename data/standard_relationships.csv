@@ -1,0 +1,385 @@
+relationship_id,source_is_number,target_is_number,relationship_type,description,source_url
+1,IS 269:2015,cement,RELATED_STANDARD,Related standard mapping associated with IS 269:2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+2,IS 269:2015,OPC,RELATED_STANDARD,Related standard mapping associated with IS 269:2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+3,IS 269:2015,Portland cement,RELATED_STANDARD,Related standard mapping associated with IS 269:2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+4,IS 269:2015,33 grade,RELATED_STANDARD,Related standard mapping associated with IS 269:2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+5,IS 269:2015,43 grade,RELATED_STANDARD,Related standard mapping associated with IS 269:2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+6,IS 269:2015,53 grade,RELATED_STANDARD,Related standard mapping associated with IS 269:2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+7,IS 269:2015,concrete,RELATED_STANDARD,Related standard mapping associated with IS 269:2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+8,IS 269:2015,construction,RELATED_STANDARD,Related standard mapping associated with IS 269:2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+9,IS 1489 (Part 1):2015,PPC,RELATED_STANDARD,Related standard mapping associated with IS 1489 (Part 1):2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+10,IS 1489 (Part 1):2015,fly ash cement,RELATED_STANDARD,Related standard mapping associated with IS 1489 (Part 1):2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+11,IS 1489 (Part 1):2015,Portland pozzolana,RELATED_STANDARD,Related standard mapping associated with IS 1489 (Part 1):2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+12,IS 1489 (Part 1):2015,concrete,RELATED_STANDARD,Related standard mapping associated with IS 1489 (Part 1):2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+13,IS 1489 (Part 1):2015,foundations,RELATED_STANDARD,Related standard mapping associated with IS 1489 (Part 1):2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+14,IS 1489 (Part 1):2015,mass concrete,RELATED_STANDARD,Related standard mapping associated with IS 1489 (Part 1):2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+15,IS 1489 (Part 1):2015,infrastructure,RELATED_STANDARD,Related standard mapping associated with IS 1489 (Part 1):2015.,https://services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf
+16,IS 455:2015,PSC,RELATED_STANDARD,Related standard mapping associated with IS 455:2015.,https://services.bis.gov.in/tmp/tbl5_2024-11-11-10-41.pdf
+17,IS 455:2015,slag cement,RELATED_STANDARD,Related standard mapping associated with IS 455:2015.,https://services.bis.gov.in/tmp/tbl5_2024-11-11-10-41.pdf
+18,IS 455:2015,Portland slag,RELATED_STANDARD,Related standard mapping associated with IS 455:2015.,https://services.bis.gov.in/tmp/tbl5_2024-11-11-10-41.pdf
+19,IS 455:2015,concrete,RELATED_STANDARD,Related standard mapping associated with IS 455:2015.,https://services.bis.gov.in/tmp/tbl5_2024-11-11-10-41.pdf
+20,IS 455:2015,sulphate soil,RELATED_STANDARD,Related standard mapping associated with IS 455:2015.,https://services.bis.gov.in/tmp/tbl5_2024-11-11-10-41.pdf
+21,IS 455:2015,chloride soil,RELATED_STANDARD,Related standard mapping associated with IS 455:2015.,https://services.bis.gov.in/tmp/tbl5_2024-11-11-10-41.pdf
+22,IS 455:2015,green building,RELATED_STANDARD,Related standard mapping associated with IS 455:2015.,https://services.bis.gov.in/tmp/tbl5_2024-11-11-10-41.pdf
+23,IS 8112:2013,OPC 43,RELATED_STANDARD,Related standard mapping associated with IS 8112:2013.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTQyNDI%3D
+24,IS 8112:2013,43 grade cement,RELATED_STANDARD,Related standard mapping associated with IS 8112:2013.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTQyNDI%3D
+25,IS 8112:2013,Portland cement,RELATED_STANDARD,Related standard mapping associated with IS 8112:2013.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTQyNDI%3D
+26,IS 8112:2013,concrete,RELATED_STANDARD,Related standard mapping associated with IS 8112:2013.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTQyNDI%3D
+27,IS 8112:2013,construction,RELATED_STANDARD,Related standard mapping associated with IS 8112:2013.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTQyNDI%3D
+28,IS 8112:2013,compressive strength,RELATED_STANDARD,Related standard mapping associated with IS 8112:2013.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTQyNDI%3D
+29,IS 383:2016,aggregate,RELATED_STANDARD,Related standard mapping associated with IS 383:2016.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-10_11.pdf
+30,IS 383:2016,fine aggregate,RELATED_STANDARD,Related standard mapping associated with IS 383:2016.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-10_11.pdf
+31,IS 383:2016,coarse aggregate,RELATED_STANDARD,Related standard mapping associated with IS 383:2016.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-10_11.pdf
+32,IS 383:2016,concrete,RELATED_STANDARD,Related standard mapping associated with IS 383:2016.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-10_11.pdf
+33,IS 383:2016,grading,RELATED_STANDARD,Related standard mapping associated with IS 383:2016.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-10_11.pdf
+34,IS 383:2016,crushing value,RELATED_STANDARD,Related standard mapping associated with IS 383:2016.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-10_11.pdf
+35,IS 383:2016,impact value,RELATED_STANDARD,Related standard mapping associated with IS 383:2016.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-10_11.pdf
+36,IS 383:2016,abrasion,RELATED_STANDARD,Related standard mapping associated with IS 383:2016.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-10_11.pdf
+37,IS 383:2016,soundness,RELATED_STANDARD,Related standard mapping associated with IS 383:2016.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-10_11.pdf
+38,IS 456:2000,reinforced concrete,RELATED_STANDARD,Related standard mapping associated with IS 456:2000.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MzE2NjI%3D
+39,IS 456:2000,RCC,RELATED_STANDARD,Related standard mapping associated with IS 456:2000.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MzE2NjI%3D
+40,IS 456:2000,structural concrete,RELATED_STANDARD,Related standard mapping associated with IS 456:2000.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MzE2NjI%3D
+41,IS 456:2000,concrete design,RELATED_STANDARD,Related standard mapping associated with IS 456:2000.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MzE2NjI%3D
+42,IS 456:2000,durability,RELATED_STANDARD,Related standard mapping associated with IS 456:2000.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MzE2NjI%3D
+43,IS 456:2000,construction,RELATED_STANDARD,Related standard mapping associated with IS 456:2000.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MzE2NjI%3D
+44,IS 456:2000,reinforcement,RELATED_STANDARD,Related standard mapping associated with IS 456:2000.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MzE2NjI%3D
+45,IS 1786:2008,TMT bars,RELATED_STANDARD,Related standard mapping associated with IS 1786:2008.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+46,IS 1786:2008,reinforcement steel,RELATED_STANDARD,Related standard mapping associated with IS 1786:2008.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+47,IS 1786:2008,deformed bars,RELATED_STANDARD,Related standard mapping associated with IS 1786:2008.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+48,IS 1786:2008,HYSD,RELATED_STANDARD,Related standard mapping associated with IS 1786:2008.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+49,IS 1786:2008,concrete reinforcement,RELATED_STANDARD,Related standard mapping associated with IS 1786:2008.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+50,IS 1786:2008,structural steel,RELATED_STANDARD,Related standard mapping associated with IS 1786:2008.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+51,IS 2062:2011,structural steel,RELATED_STANDARD,Related standard mapping associated with IS 2062:2011.,https://www.services.bis.gov.in/tmp/SR2062.pdf
+52,IS 2062:2011,hot rolled steel,RELATED_STANDARD,Related standard mapping associated with IS 2062:2011.,https://www.services.bis.gov.in/tmp/SR2062.pdf
+53,IS 2062:2011,plates,RELATED_STANDARD,Related standard mapping associated with IS 2062:2011.,https://www.services.bis.gov.in/tmp/SR2062.pdf
+54,IS 2062:2011,beams,RELATED_STANDARD,Related standard mapping associated with IS 2062:2011.,https://www.services.bis.gov.in/tmp/SR2062.pdf
+55,IS 2062:2011,channels,RELATED_STANDARD,Related standard mapping associated with IS 2062:2011.,https://www.services.bis.gov.in/tmp/SR2062.pdf
+56,IS 2062:2011,angles,RELATED_STANDARD,Related standard mapping associated with IS 2062:2011.,https://www.services.bis.gov.in/tmp/SR2062.pdf
+57,IS 2062:2011,welded structures,RELATED_STANDARD,Related standard mapping associated with IS 2062:2011.,https://www.services.bis.gov.in/tmp/SR2062.pdf
+58,IS 2062:2011,bolted structures,RELATED_STANDARD,Related standard mapping associated with IS 2062:2011.,https://www.services.bis.gov.in/tmp/SR2062.pdf
+59,IS 458:2021,RCC pipes,RELATED_STANDARD,Related standard mapping associated with IS 458:2021.,https://services.bis.gov.in/tmp/tbl5_2024-11-12-10-11.pdf
+60,IS 458:2021,Hume pipes,RELATED_STANDARD,Related standard mapping associated with IS 458:2021.,https://services.bis.gov.in/tmp/tbl5_2024-11-12-10-11.pdf
+61,IS 458:2021,precast concrete pipes,RELATED_STANDARD,Related standard mapping associated with IS 458:2021.,https://services.bis.gov.in/tmp/tbl5_2024-11-12-10-11.pdf
+62,IS 458:2021,sewer,RELATED_STANDARD,Related standard mapping associated with IS 458:2021.,https://services.bis.gov.in/tmp/tbl5_2024-11-12-10-11.pdf
+63,IS 458:2021,culvert,RELATED_STANDARD,Related standard mapping associated with IS 458:2021.,https://services.bis.gov.in/tmp/tbl5_2024-11-12-10-11.pdf
+64,IS 458:2021,irrigation,RELATED_STANDARD,Related standard mapping associated with IS 458:2021.,https://services.bis.gov.in/tmp/tbl5_2024-11-12-10-11.pdf
+65,IS 458:2021,water mains,RELATED_STANDARD,Related standard mapping associated with IS 458:2021.,https://services.bis.gov.in/tmp/tbl5_2024-11-12-10-11.pdf
+66,IS 15658:2021,paver blocks,RELATED_STANDARD,Related standard mapping associated with IS 15658:2021.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-12-06.pdf
+67,IS 15658:2021,concrete paving,RELATED_STANDARD,Related standard mapping associated with IS 15658:2021.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-12-06.pdf
+68,IS 15658:2021,interlocking blocks,RELATED_STANDARD,Related standard mapping associated with IS 15658:2021.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-12-06.pdf
+69,IS 15658:2021,pedestrian pavement,RELATED_STANDARD,Related standard mapping associated with IS 15658:2021.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-12-06.pdf
+70,IS 15658:2021,vehicular pavement,RELATED_STANDARD,Related standard mapping associated with IS 15658:2021.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-12-06.pdf
+71,IS 15658:2021,precast concrete,RELATED_STANDARD,Related standard mapping associated with IS 15658:2021.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-12-06.pdf
+72,IS 4984:2016,HDPE pipe,RELATED_STANDARD,Related standard mapping associated with IS 4984:2016.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+73,IS 4984:2016,polyethylene pipe,RELATED_STANDARD,Related standard mapping associated with IS 4984:2016.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+74,IS 4984:2016,water supply,RELATED_STANDARD,Related standard mapping associated with IS 4984:2016.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+75,IS 4984:2016,potable water,RELATED_STANDARD,Related standard mapping associated with IS 4984:2016.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+76,IS 4984:2016,pressure pipe,RELATED_STANDARD,Related standard mapping associated with IS 4984:2016.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+77,IS 4984:2016,PE pipe,RELATED_STANDARD,Related standard mapping associated with IS 4984:2016.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+78,IS 4985:2021,UPVC pipe,RELATED_STANDARD,Related standard mapping associated with IS 4985:2021.,https://services.bis.gov.in/php/BIS_2.0/dgdashboard/published/grp_stn_list/10
+79,IS 4985:2021,PVC pipe,RELATED_STANDARD,Related standard mapping associated with IS 4985:2021.,https://services.bis.gov.in/php/BIS_2.0/dgdashboard/published/grp_stn_list/10
+80,IS 4985:2021,potable water,RELATED_STANDARD,Related standard mapping associated with IS 4985:2021.,https://services.bis.gov.in/php/BIS_2.0/dgdashboard/published/grp_stn_list/10
+81,IS 4985:2021,drinking water,RELATED_STANDARD,Related standard mapping associated with IS 4985:2021.,https://services.bis.gov.in/php/BIS_2.0/dgdashboard/published/grp_stn_list/10
+82,IS 4985:2021,socket ended pipe,RELATED_STANDARD,Related standard mapping associated with IS 4985:2021.,https://services.bis.gov.in/php/BIS_2.0/dgdashboard/published/grp_stn_list/10
+83,IS 4985:2021,pressure pipe,RELATED_STANDARD,Related standard mapping associated with IS 4985:2021.,https://services.bis.gov.in/php/BIS_2.0/dgdashboard/published/grp_stn_list/10
+84,IS 13592:2013,PVC-U pipe,RELATED_STANDARD,Related standard mapping associated with IS 13592:2013.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-03-04.pdf
+85,IS 13592:2013,soil discharge,RELATED_STANDARD,Related standard mapping associated with IS 13592:2013.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-03-04.pdf
+86,IS 13592:2013,waste discharge,RELATED_STANDARD,Related standard mapping associated with IS 13592:2013.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-03-04.pdf
+87,IS 13592:2013,drainage,RELATED_STANDARD,Related standard mapping associated with IS 13592:2013.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-03-04.pdf
+88,IS 13592:2013,ventilation,RELATED_STANDARD,Related standard mapping associated with IS 13592:2013.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-03-04.pdf
+89,IS 13592:2013,rainwater,RELATED_STANDARD,Related standard mapping associated with IS 13592:2013.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-03-04.pdf
+90,IS 13592:2013,rainwater harvesting,RELATED_STANDARD,Related standard mapping associated with IS 13592:2013.,https://services.bis.gov.in/tmp/compendium_2025-06-02-04-03-04.pdf
+91,IS 2720 (Part 11):1993,soil,RELATED_STANDARD,Related standard mapping associated with IS 2720 (Part 11):1993.,https://www.services.bis.gov.in/tmp/SR2720_11.pdf
+92,IS 2720 (Part 11):1993,shear strength,RELATED_STANDARD,Related standard mapping associated with IS 2720 (Part 11):1993.,https://www.services.bis.gov.in/tmp/SR2720_11.pdf
+93,IS 2720 (Part 11):1993,triaxial test,RELATED_STANDARD,Related standard mapping associated with IS 2720 (Part 11):1993.,https://www.services.bis.gov.in/tmp/SR2720_11.pdf
+94,IS 2720 (Part 11):1993,unconsolidated undrained,RELATED_STANDARD,Related standard mapping associated with IS 2720 (Part 11):1993.,https://www.services.bis.gov.in/tmp/SR2720_11.pdf
+95,IS 2720 (Part 11):1993,UU test,RELATED_STANDARD,Related standard mapping associated with IS 2720 (Part 11):1993.,https://www.services.bis.gov.in/tmp/SR2720_11.pdf
+96,IS 2720 (Part 11):1993,geotechnical,RELATED_STANDARD,Related standard mapping associated with IS 2720 (Part 11):1993.,https://www.services.bis.gov.in/tmp/SR2720_11.pdf
+97,IS 2720 (Part 11):1993,cohesive soil,RELATED_STANDARD,Related standard mapping associated with IS 2720 (Part 11):1993.,https://www.services.bis.gov.in/tmp/SR2720_11.pdf
+98,IS 1893 (Part 1):2016,earthquake resistant design,RELATED_STANDARD,Related standard mapping associated with IS 1893 (Part 1):2016.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=NjIyNg%3D%3D
+99,IS 1893 (Part 1):2016,seismic design,RELATED_STANDARD,Related standard mapping associated with IS 1893 (Part 1):2016.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=NjIyNg%3D%3D
+100,IS 1893 (Part 1):2016,buildings,RELATED_STANDARD,Related standard mapping associated with IS 1893 (Part 1):2016.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=NjIyNg%3D%3D
+101,IS 1893 (Part 1):2016,structural engineering,RELATED_STANDARD,Related standard mapping associated with IS 1893 (Part 1):2016.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=NjIyNg%3D%3D
+102,IS 1893 (Part 1):2016,earthquake,RELATED_STANDARD,Related standard mapping associated with IS 1893 (Part 1):2016.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=NjIyNg%3D%3D
+103,IS 1893 (Part 1):2016,seismic zone,RELATED_STANDARD,Related standard mapping associated with IS 1893 (Part 1):2016.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=NjIyNg%3D%3D
+104,IS 694:2010,PVC cable,RELATED_STANDARD,Related standard mapping associated with IS 694:2010.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+105,IS 694:2010,electrical cable,RELATED_STANDARD,Related standard mapping associated with IS 694:2010.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+106,IS 694:2010,insulated cable,RELATED_STANDARD,Related standard mapping associated with IS 694:2010.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+107,IS 694:2010,1100 V,RELATED_STANDARD,Related standard mapping associated with IS 694:2010.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+108,IS 694:2010,sheathed cable,RELATED_STANDARD,Related standard mapping associated with IS 694:2010.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+109,IS 694:2010,flexible conductor,RELATED_STANDARD,Related standard mapping associated with IS 694:2010.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+110,IS 694:2010,rigid conductor,RELATED_STANDARD,Related standard mapping associated with IS 694:2010.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+111,IS 1554 (Part 1):1988,heavy duty cable,RELATED_STANDARD,Related standard mapping associated with IS 1554 (Part 1):1988.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1146.pdf
+112,IS 1554 (Part 1):1988,PVC cable,RELATED_STANDARD,Related standard mapping associated with IS 1554 (Part 1):1988.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1146.pdf
+113,IS 1554 (Part 1):1988,1100 V,RELATED_STANDARD,Related standard mapping associated with IS 1554 (Part 1):1988.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1146.pdf
+114,IS 1554 (Part 1):1988,armoured cable,RELATED_STANDARD,Related standard mapping associated with IS 1554 (Part 1):1988.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1146.pdf
+115,IS 1554 (Part 1):1988,unarmoured cable,RELATED_STANDARD,Related standard mapping associated with IS 1554 (Part 1):1988.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1146.pdf
+116,IS 1554 (Part 1):1988,power cable,RELATED_STANDARD,Related standard mapping associated with IS 1554 (Part 1):1988.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1146.pdf
+117,IS 1554 (Part 1):1988,control cable,RELATED_STANDARD,Related standard mapping associated with IS 1554 (Part 1):1988.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1146.pdf
+118,IS 7098 (Part 1):2025,XLPE cable,RELATED_STANDARD,Related standard mapping associated with IS 7098 (Part 1):2025.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTUyMDM%3D
+119,IS 7098 (Part 1):2025,thermoplastic sheath,RELATED_STANDARD,Related standard mapping associated with IS 7098 (Part 1):2025.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTUyMDM%3D
+120,IS 7098 (Part 1):2025,1100 V,RELATED_STANDARD,Related standard mapping associated with IS 7098 (Part 1):2025.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTUyMDM%3D
+121,IS 7098 (Part 1):2025,power cable,RELATED_STANDARD,Related standard mapping associated with IS 7098 (Part 1):2025.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTUyMDM%3D
+122,IS 7098 (Part 1):2025,insulated cable,RELATED_STANDARD,Related standard mapping associated with IS 7098 (Part 1):2025.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTUyMDM%3D
+123,IS 7098 (Part 1):2025,electrical distribution,RELATED_STANDARD,Related standard mapping associated with IS 7098 (Part 1):2025.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTUyMDM%3D
+124,IS 9537 (Part 3):1983,electrical conduit,RELATED_STANDARD,Related standard mapping associated with IS 9537 (Part 3):1983.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+125,IS 9537 (Part 3):1983,PVC conduit,RELATED_STANDARD,Related standard mapping associated with IS 9537 (Part 3):1983.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+126,IS 9537 (Part 3):1983,rigid conduit,RELATED_STANDARD,Related standard mapping associated with IS 9537 (Part 3):1983.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+127,IS 9537 (Part 3):1983,wiring installation,RELATED_STANDARD,Related standard mapping associated with IS 9537 (Part 3):1983.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+128,IS 9537 (Part 3):1983,insulating conduit,RELATED_STANDARD,Related standard mapping associated with IS 9537 (Part 3):1983.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+129,IS 9537 (Part 3):1983,cable protection,RELATED_STANDARD,Related standard mapping associated with IS 9537 (Part 3):1983.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+130,IS 1180 (Part 1):2014,distribution transformer,RELATED_STANDARD,Related standard mapping associated with IS 1180 (Part 1):2014.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+131,IS 1180 (Part 1):2014,oil immersed transformer,RELATED_STANDARD,Related standard mapping associated with IS 1180 (Part 1):2014.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+132,IS 1180 (Part 1):2014,transformer,RELATED_STANDARD,Related standard mapping associated with IS 1180 (Part 1):2014.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+133,IS 1180 (Part 1):2014,11 kV,RELATED_STANDARD,Related standard mapping associated with IS 1180 (Part 1):2014.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+134,IS 1180 (Part 1):2014,33 kV,RELATED_STANDARD,Related standard mapping associated with IS 1180 (Part 1):2014.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+135,IS 1180 (Part 1):2014,electrical distribution,RELATED_STANDARD,Related standard mapping associated with IS 1180 (Part 1):2014.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+136,IS 374:2019,ceiling fan,RELATED_STANDARD,Related standard mapping associated with IS 374:2019.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1113.pdf
+137,IS 374:2019,electric fan,RELATED_STANDARD,Related standard mapping associated with IS 374:2019.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1113.pdf
+138,IS 374:2019,BLDC fan,RELATED_STANDARD,Related standard mapping associated with IS 374:2019.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1113.pdf
+139,IS 374:2019,fan regulator,RELATED_STANDARD,Related standard mapping associated with IS 374:2019.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1113.pdf
+140,IS 374:2019,air delivery,RELATED_STANDARD,Related standard mapping associated with IS 374:2019.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1113.pdf
+141,IS 374:2019,efficiency,RELATED_STANDARD,Related standard mapping associated with IS 374:2019.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1113.pdf
+142,IS 374:2019,household fan,RELATED_STANDARD,Related standard mapping associated with IS 374:2019.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-07_1113.pdf
+143,IS 3854:1997,electrical switch,RELATED_STANDARD,Related standard mapping associated with IS 3854:1997.,https://services.bis.gov.in/tmp/tbl5_2024-12-02-11-05.pdf
+144,IS 3854:1997,household switch,RELATED_STANDARD,Related standard mapping associated with IS 3854:1997.,https://services.bis.gov.in/tmp/tbl5_2024-12-02-11-05.pdf
+145,IS 3854:1997,domestic switch,RELATED_STANDARD,Related standard mapping associated with IS 3854:1997.,https://services.bis.gov.in/tmp/tbl5_2024-12-02-11-05.pdf
+146,IS 3854:1997,voltage rating,RELATED_STANDARD,Related standard mapping associated with IS 3854:1997.,https://services.bis.gov.in/tmp/tbl5_2024-12-02-11-05.pdf
+147,IS 3854:1997,insulation resistance,RELATED_STANDARD,Related standard mapping associated with IS 3854:1997.,https://services.bis.gov.in/tmp/tbl5_2024-12-02-11-05.pdf
+148,IS 3854:1997,electric strength,RELATED_STANDARD,Related standard mapping associated with IS 3854:1997.,https://services.bis.gov.in/tmp/tbl5_2024-12-02-11-05.pdf
+149,IS 302 (Part 1):2024,electrical appliance safety,RELATED_STANDARD,Related standard mapping associated with IS 302 (Part 1):2024.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-18-03-08.pdf
+150,IS 302 (Part 1):2024,household appliance,RELATED_STANDARD,Related standard mapping associated with IS 302 (Part 1):2024.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-18-03-08.pdf
+151,IS 302 (Part 1):2024,electric shock,RELATED_STANDARD,Related standard mapping associated with IS 302 (Part 1):2024.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-18-03-08.pdf
+152,IS 302 (Part 1):2024,thermal safety,RELATED_STANDARD,Related standard mapping associated with IS 302 (Part 1):2024.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-18-03-08.pdf
+153,IS 302 (Part 1):2024,mechanical safety,RELATED_STANDARD,Related standard mapping associated with IS 302 (Part 1):2024.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-18-03-08.pdf
+154,IS 302 (Part 1):2024,moisture resistance,RELATED_STANDARD,Related standard mapping associated with IS 302 (Part 1):2024.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-18-03-08.pdf
+155,IS 4250:1980,mixer grinder,RELATED_STANDARD,Related standard mapping associated with IS 4250:1980.,https://www.services.bis.gov.in/tmp/SR4250.pdf
+156,IS 4250:1980,liquidizer,RELATED_STANDARD,Related standard mapping associated with IS 4250:1980.,https://www.services.bis.gov.in/tmp/SR4250.pdf
+157,IS 4250:1980,juicer,RELATED_STANDARD,Related standard mapping associated with IS 4250:1980.,https://www.services.bis.gov.in/tmp/SR4250.pdf
+158,IS 4250:1980,domestic appliance,RELATED_STANDARD,Related standard mapping associated with IS 4250:1980.,https://www.services.bis.gov.in/tmp/SR4250.pdf
+159,IS 4250:1980,food mixer,RELATED_STANDARD,Related standard mapping associated with IS 4250:1980.,https://www.services.bis.gov.in/tmp/SR4250.pdf
+160,IS 4250:1980,250 V,RELATED_STANDARD,Related standard mapping associated with IS 4250:1980.,https://www.services.bis.gov.in/tmp/SR4250.pdf
+161,IS 4250:1980,electric mixer,RELATED_STANDARD,Related standard mapping associated with IS 4250:1980.,https://www.services.bis.gov.in/tmp/SR4250.pdf
+162,IS 996:2009,induction motor,RELATED_STANDARD,Related standard mapping associated with IS 996:2009.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+163,IS 996:2009,single phase motor,RELATED_STANDARD,Related standard mapping associated with IS 996:2009.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+164,IS 996:2009,AC motor,RELATED_STANDARD,Related standard mapping associated with IS 996:2009.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+165,IS 996:2009,general purpose motor,RELATED_STANDARD,Related standard mapping associated with IS 996:2009.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+166,IS 996:2009,motor efficiency,RELATED_STANDARD,Related standard mapping associated with IS 996:2009.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+167,IS 996:2009,rotating machine,RELATED_STANDARD,Related standard mapping associated with IS 996:2009.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+168,IS 3043:2018,earthing,RELATED_STANDARD,Related standard mapping associated with IS 3043:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjQ4NzA%3D
+169,IS 3043:2018,grounding,RELATED_STANDARD,Related standard mapping associated with IS 3043:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjQ4NzA%3D
+170,IS 3043:2018,electrical installation,RELATED_STANDARD,Related standard mapping associated with IS 3043:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjQ4NzA%3D
+171,IS 3043:2018,earth electrode,RELATED_STANDARD,Related standard mapping associated with IS 3043:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjQ4NzA%3D
+172,IS 3043:2018,bonding,RELATED_STANDARD,Related standard mapping associated with IS 3043:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjQ4NzA%3D
+173,IS 3043:2018,protective earthing,RELATED_STANDARD,Related standard mapping associated with IS 3043:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjQ4NzA%3D
+174,IS 3043:2018,lightning protection,RELATED_STANDARD,Related standard mapping associated with IS 3043:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjQ4NzA%3D
+175,IS 398 (Part 2):1996,ACSR,RELATED_STANDARD,Related standard mapping associated with IS 398 (Part 2):1996.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjU4MDA%3D
+176,IS 398 (Part 2):1996,aluminium conductor,RELATED_STANDARD,Related standard mapping associated with IS 398 (Part 2):1996.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjU4MDA%3D
+177,IS 398 (Part 2):1996,galvanized steel reinforced,RELATED_STANDARD,Related standard mapping associated with IS 398 (Part 2):1996.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjU4MDA%3D
+178,IS 398 (Part 2):1996,overhead transmission,RELATED_STANDARD,Related standard mapping associated with IS 398 (Part 2):1996.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjU4MDA%3D
+179,IS 398 (Part 2):1996,power line,RELATED_STANDARD,Related standard mapping associated with IS 398 (Part 2):1996.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjU4MDA%3D
+180,IS 398 (Part 2):1996,conductor,RELATED_STANDARD,Related standard mapping associated with IS 398 (Part 2):1996.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjU4MDA%3D
+181,IS 14220:1994,openwell pump,RELATED_STANDARD,Related standard mapping associated with IS 14220:1994.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+182,IS 14220:1994,submersible pump,RELATED_STANDARD,Related standard mapping associated with IS 14220:1994.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+183,IS 14220:1994,pumpset,RELATED_STANDARD,Related standard mapping associated with IS 14220:1994.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+184,IS 14220:1994,water supply,RELATED_STANDARD,Related standard mapping associated with IS 14220:1994.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+185,IS 14220:1994,irrigation,RELATED_STANDARD,Related standard mapping associated with IS 14220:1994.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+186,IS 14220:1994,motor pump,RELATED_STANDARD,Related standard mapping associated with IS 14220:1994.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+187,IS 8034:2018,submersible pump,RELATED_STANDARD,Related standard mapping associated with IS 8034:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+188,IS 8034:2018,pumpset,RELATED_STANDARD,Related standard mapping associated with IS 8034:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+189,IS 8034:2018,water pumping,RELATED_STANDARD,Related standard mapping associated with IS 8034:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+190,IS 8034:2018,borewell,RELATED_STANDARD,Related standard mapping associated with IS 8034:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+191,IS 8034:2018,motor pump,RELATED_STANDARD,Related standard mapping associated with IS 8034:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+192,IS 8034:2018,agricultural pump,RELATED_STANDARD,Related standard mapping associated with IS 8034:2018.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D
+193,IS 2082:2018,electric geyser,RELATED_STANDARD,Related standard mapping associated with IS 2082:2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-04-42.pdf
+194,IS 2082:2018,water heater,RELATED_STANDARD,Related standard mapping associated with IS 2082:2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-04-42.pdf
+195,IS 2082:2018,storage water heater,RELATED_STANDARD,Related standard mapping associated with IS 2082:2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-04-42.pdf
+196,IS 2082:2018,thermostat,RELATED_STANDARD,Related standard mapping associated with IS 2082:2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-04-42.pdf
+197,IS 2082:2018,thermal cut-off,RELATED_STANDARD,Related standard mapping associated with IS 2082:2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-04-42.pdf
+198,IS 2082:2018,pressure relief,RELATED_STANDARD,Related standard mapping associated with IS 2082:2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-04-42.pdf
+199,IS 2082:2018,household appliance,RELATED_STANDARD,Related standard mapping associated with IS 2082:2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-04-42.pdf
+200,IS 2925:1984,industrial helmet,RELATED_STANDARD,Related standard mapping associated with IS 2925:1984.,https://services.bis.gov.in/tmp/compendium_2025-05-28-03-19-26.pdf
+201,IS 2925:1984,safety helmet,RELATED_STANDARD,Related standard mapping associated with IS 2925:1984.,https://services.bis.gov.in/tmp/compendium_2025-05-28-03-19-26.pdf
+202,IS 2925:1984,hard hat,RELATED_STANDARD,Related standard mapping associated with IS 2925:1984.,https://services.bis.gov.in/tmp/compendium_2025-05-28-03-19-26.pdf
+203,IS 2925:1984,head protection,RELATED_STANDARD,Related standard mapping associated with IS 2925:1984.,https://services.bis.gov.in/tmp/compendium_2025-05-28-03-19-26.pdf
+204,IS 2925:1984,impact protection,RELATED_STANDARD,Related standard mapping associated with IS 2925:1984.,https://services.bis.gov.in/tmp/compendium_2025-05-28-03-19-26.pdf
+205,IS 2925:1984,occupational safety,RELATED_STANDARD,Related standard mapping associated with IS 2925:1984.,https://services.bis.gov.in/tmp/compendium_2025-05-28-03-19-26.pdf
+206,IS 4151:2015,motorcycle helmet,RELATED_STANDARD,Related standard mapping associated with IS 4151:2015.,https://www.bis.gov.in/wp-content/uploads/2020/12/Helmet-for-riders-of-Two-Wheeler-Motor-Vehicles-Quality-Control-Order-2020.pdf
+207,IS 4151:2015,two wheeler helmet,RELATED_STANDARD,Related standard mapping associated with IS 4151:2015.,https://www.bis.gov.in/wp-content/uploads/2020/12/Helmet-for-riders-of-Two-Wheeler-Motor-Vehicles-Quality-Control-Order-2020.pdf
+208,IS 4151:2015,protective helmet,RELATED_STANDARD,Related standard mapping associated with IS 4151:2015.,https://www.bis.gov.in/wp-content/uploads/2020/12/Helmet-for-riders-of-Two-Wheeler-Motor-Vehicles-Quality-Control-Order-2020.pdf
+209,IS 4151:2015,rider safety,RELATED_STANDARD,Related standard mapping associated with IS 4151:2015.,https://www.bis.gov.in/wp-content/uploads/2020/12/Helmet-for-riders-of-Two-Wheeler-Motor-Vehicles-Quality-Control-Order-2020.pdf
+210,IS 4151:2015,impact,RELATED_STANDARD,Related standard mapping associated with IS 4151:2015.,https://www.bis.gov.in/wp-content/uploads/2020/12/Helmet-for-riders-of-Two-Wheeler-Motor-Vehicles-Quality-Control-Order-2020.pdf
+211,IS 4151:2015,helmet certification,RELATED_STANDARD,Related standard mapping associated with IS 4151:2015.,https://www.bis.gov.in/wp-content/uploads/2020/12/Helmet-for-riders-of-Two-Wheeler-Motor-Vehicles-Quality-Control-Order-2020.pdf
+212,IS 15298 (Part 2):2024,safety footwear,RELATED_STANDARD,Related standard mapping associated with IS 15298 (Part 2):2024.,https://services.bis.gov.in/tmp/Circular_Ta6b_2025-01-10.pdf
+213,IS 15298 (Part 2):2024,PPE footwear,RELATED_STANDARD,Related standard mapping associated with IS 15298 (Part 2):2024.,https://services.bis.gov.in/tmp/Circular_Ta6b_2025-01-10.pdf
+214,IS 15298 (Part 2):2024,protective shoes,RELATED_STANDARD,Related standard mapping associated with IS 15298 (Part 2):2024.,https://services.bis.gov.in/tmp/Circular_Ta6b_2025-01-10.pdf
+215,IS 15298 (Part 2):2024,toe protection,RELATED_STANDARD,Related standard mapping associated with IS 15298 (Part 2):2024.,https://services.bis.gov.in/tmp/Circular_Ta6b_2025-01-10.pdf
+216,IS 15298 (Part 2):2024,slip resistance,RELATED_STANDARD,Related standard mapping associated with IS 15298 (Part 2):2024.,https://services.bis.gov.in/tmp/Circular_Ta6b_2025-01-10.pdf
+217,IS 15298 (Part 2):2024,occupational footwear,RELATED_STANDARD,Related standard mapping associated with IS 15298 (Part 2):2024.,https://services.bis.gov.in/tmp/Circular_Ta6b_2025-01-10.pdf
+218,IS 6721:2023,sandals,RELATED_STANDARD,Related standard mapping associated with IS 6721:2023.,https://www.services.bis.gov.in/tmp/tbl5_2025-01-16-06-13.pdf
+219,IS 6721:2023,slippers,RELATED_STANDARD,Related standard mapping associated with IS 6721:2023.,https://www.services.bis.gov.in/tmp/tbl5_2025-01-16-06-13.pdf
+220,IS 6721:2023,footwear,RELATED_STANDARD,Related standard mapping associated with IS 6721:2023.,https://www.services.bis.gov.in/tmp/tbl5_2025-01-16-06-13.pdf
+221,IS 6721:2023,slip resistance,RELATED_STANDARD,Related standard mapping associated with IS 6721:2023.,https://www.services.bis.gov.in/tmp/tbl5_2025-01-16-06-13.pdf
+222,IS 6721:2023,bond strength,RELATED_STANDARD,Related standard mapping associated with IS 6721:2023.,https://www.services.bis.gov.in/tmp/tbl5_2025-01-16-06-13.pdf
+223,IS 6721:2023,abrasion,RELATED_STANDARD,Related standard mapping associated with IS 6721:2023.,https://www.services.bis.gov.in/tmp/tbl5_2025-01-16-06-13.pdf
+224,IS 6721:2023,flexing,RELATED_STANDARD,Related standard mapping associated with IS 6721:2023.,https://www.services.bis.gov.in/tmp/tbl5_2025-01-16-06-13.pdf
+225,IS 6721:2023,footwear safety,RELATED_STANDARD,Related standard mapping associated with IS 6721:2023.,https://www.services.bis.gov.in/tmp/tbl5_2025-01-16-06-13.pdf
+226,IS 8521 (Part 1):2022,eye protection,RELATED_STANDARD,Related standard mapping associated with IS 8521 (Part 1):2022.,https://services.bis.gov.in/tmp/compendium_2025-05-28-03-19-26.pdf
+227,IS 8521 (Part 1):2022,face protection,RELATED_STANDARD,Related standard mapping associated with IS 8521 (Part 1):2022.,https://services.bis.gov.in/tmp/compendium_2025-05-28-03-19-26.pdf
+228,IS 8521 (Part 1):2022,safety goggles,RELATED_STANDARD,Related standard mapping associated with IS 8521 (Part 1):2022.,https://services.bis.gov.in/tmp/compendium_2025-05-28-03-19-26.pdf
+229,IS 8521 (Part 1):2022,protective eyewear,RELATED_STANDARD,Related standard mapping associated with IS 8521 (Part 1):2022.,https://services.bis.gov.in/tmp/compendium_2025-05-28-03-19-26.pdf
+230,IS 8521 (Part 1):2022,occupational PPE,RELATED_STANDARD,Related standard mapping associated with IS 8521 (Part 1):2022.,https://services.bis.gov.in/tmp/compendium_2025-05-28-03-19-26.pdf
+231,IS 8521 (Part 1):2022,impact protection,RELATED_STANDARD,Related standard mapping associated with IS 8521 (Part 1):2022.,https://services.bis.gov.in/tmp/compendium_2025-05-28-03-19-26.pdf
+232,IS 17043 (Part 1):2024,service shoes,RELATED_STANDARD,Related standard mapping associated with IS 17043 (Part 1):2024.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-10-56.pdf
+233,IS 17043 (Part 1):2024,uniform shoes,RELATED_STANDARD,Related standard mapping associated with IS 17043 (Part 1):2024.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-10-56.pdf
+234,IS 17043 (Part 1):2024,police footwear,RELATED_STANDARD,Related standard mapping associated with IS 17043 (Part 1):2024.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-10-56.pdf
+235,IS 17043 (Part 1):2024,defence footwear,RELATED_STANDARD,Related standard mapping associated with IS 17043 (Part 1):2024.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-10-56.pdf
+236,IS 17043 (Part 1):2024,slip resistance,RELATED_STANDARD,Related standard mapping associated with IS 17043 (Part 1):2024.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-10-56.pdf
+237,IS 17043 (Part 1):2024,durability,RELATED_STANDARD,Related standard mapping associated with IS 17043 (Part 1):2024.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-13-10-56.pdf
+238,IS 2553 (Part 1):2018,safety glass,RELATED_STANDARD,Related standard mapping associated with IS 2553 (Part 1):2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-08_1177.pdf
+239,IS 2553 (Part 1):2018,toughened glass,RELATED_STANDARD,Related standard mapping associated with IS 2553 (Part 1):2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-08_1177.pdf
+240,IS 2553 (Part 1):2018,laminated glass,RELATED_STANDARD,Related standard mapping associated with IS 2553 (Part 1):2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-08_1177.pdf
+241,IS 2553 (Part 1):2018,architectural glass,RELATED_STANDARD,Related standard mapping associated with IS 2553 (Part 1):2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-08_1177.pdf
+242,IS 2553 (Part 1):2018,building glass,RELATED_STANDARD,Related standard mapping associated with IS 2553 (Part 1):2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-08_1177.pdf
+243,IS 2553 (Part 1):2018,impact resistance,RELATED_STANDARD,Related standard mapping associated with IS 2553 (Part 1):2018.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-08_1177.pdf
+244,IS 9873 (Part 1):2012,toy safety,RELATED_STANDARD,Related standard mapping associated with IS 9873 (Part 1):2012.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjUzNTc%3D
+245,IS 9873 (Part 1):2012,mechanical properties,RELATED_STANDARD,Related standard mapping associated with IS 9873 (Part 1):2012.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjUzNTc%3D
+246,IS 9873 (Part 1):2012,physical properties,RELATED_STANDARD,Related standard mapping associated with IS 9873 (Part 1):2012.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjUzNTc%3D
+247,IS 9873 (Part 1):2012,children,RELATED_STANDARD,Related standard mapping associated with IS 9873 (Part 1):2012.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjUzNTc%3D
+248,IS 9873 (Part 1):2012,choking hazard,RELATED_STANDARD,Related standard mapping associated with IS 9873 (Part 1):2012.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjUzNTc%3D
+249,IS 9873 (Part 1):2012,toy testing,RELATED_STANDARD,Related standard mapping associated with IS 9873 (Part 1):2012.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjUzNTc%3D
+250,IS 15644:2006,electric toys,RELATED_STANDARD,Related standard mapping associated with IS 15644:2006.,https://www.services.bis.gov.in/tmp/SR15644.pdf
+251,IS 15644:2006,toy safety,RELATED_STANDARD,Related standard mapping associated with IS 15644:2006.,https://www.services.bis.gov.in/tmp/SR15644.pdf
+252,IS 15644:2006,electrical safety,RELATED_STANDARD,Related standard mapping associated with IS 15644:2006.,https://www.services.bis.gov.in/tmp/SR15644.pdf
+253,IS 15644:2006,battery toy,RELATED_STANDARD,Related standard mapping associated with IS 15644:2006.,https://www.services.bis.gov.in/tmp/SR15644.pdf
+254,IS 15644:2006,transformer toy,RELATED_STANDARD,Related standard mapping associated with IS 15644:2006.,https://www.services.bis.gov.in/tmp/SR15644.pdf
+255,IS 15644:2006,children safety,RELATED_STANDARD,Related standard mapping associated with IS 15644:2006.,https://www.services.bis.gov.in/tmp/SR15644.pdf
+256,IS 2190:2024,fire extinguisher,RELATED_STANDARD,Related standard mapping associated with IS 2190:2024.,https://www.services.bis.gov.in/tmp/CED20221197_21082024_1.pdf
+257,IS 2190:2024,portable extinguisher,RELATED_STANDARD,Related standard mapping associated with IS 2190:2024.,https://www.services.bis.gov.in/tmp/CED20221197_21082024_1.pdf
+258,IS 2190:2024,mobile extinguisher,RELATED_STANDARD,Related standard mapping associated with IS 2190:2024.,https://www.services.bis.gov.in/tmp/CED20221197_21082024_1.pdf
+259,IS 2190:2024,fire safety,RELATED_STANDARD,Related standard mapping associated with IS 2190:2024.,https://www.services.bis.gov.in/tmp/CED20221197_21082024_1.pdf
+260,IS 2190:2024,installation,RELATED_STANDARD,Related standard mapping associated with IS 2190:2024.,https://www.services.bis.gov.in/tmp/CED20221197_21082024_1.pdf
+261,IS 2190:2024,maintenance,RELATED_STANDARD,Related standard mapping associated with IS 2190:2024.,https://www.services.bis.gov.in/tmp/CED20221197_21082024_1.pdf
+262,IS 2190:2024,inspection,RELATED_STANDARD,Related standard mapping associated with IS 2190:2024.,https://www.services.bis.gov.in/tmp/CED20221197_21082024_1.pdf
+263,IS 2171:2014,dry powder extinguisher,RELATED_STANDARD,Related standard mapping associated with IS 2171:2014.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+264,IS 2171:2014,fire extinguisher,RELATED_STANDARD,Related standard mapping associated with IS 2171:2014.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+265,IS 2171:2014,ABC extinguisher,RELATED_STANDARD,Related standard mapping associated with IS 2171:2014.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+266,IS 2171:2014,fire safety,RELATED_STANDARD,Related standard mapping associated with IS 2171:2014.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+267,IS 2171:2014,portable extinguisher,RELATED_STANDARD,Related standard mapping associated with IS 2171:2014.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+268,IS 814:2004,welding electrode,RELATED_STANDARD,Related standard mapping associated with IS 814:2004.,https://services.bis.gov.in/
+269,IS 814:2004,covered electrode,RELATED_STANDARD,Related standard mapping associated with IS 814:2004.,https://services.bis.gov.in/
+270,IS 814:2004,MMA welding,RELATED_STANDARD,Related standard mapping associated with IS 814:2004.,https://services.bis.gov.in/
+271,IS 814:2004,arc welding,RELATED_STANDARD,Related standard mapping associated with IS 814:2004.,https://services.bis.gov.in/
+272,IS 814:2004,carbon steel,RELATED_STANDARD,Related standard mapping associated with IS 814:2004.,https://services.bis.gov.in/
+273,IS 814:2004,weld metal,RELATED_STANDARD,Related standard mapping associated with IS 814:2004.,https://services.bis.gov.in/
+274,IS 8737:1995,LPG valve,RELATED_STANDARD,Related standard mapping associated with IS 8737:1995.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+275,IS 8737:1995,cylinder valve,RELATED_STANDARD,Related standard mapping associated with IS 8737:1995.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+276,IS 8737:1995,gas valve,RELATED_STANDARD,Related standard mapping associated with IS 8737:1995.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+277,IS 8737:1995,leak tightness,RELATED_STANDARD,Related standard mapping associated with IS 8737:1995.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+278,IS 8737:1995,pressure,RELATED_STANDARD,Related standard mapping associated with IS 8737:1995.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+279,IS 8737:1995,LPG safety,RELATED_STANDARD,Related standard mapping associated with IS 8737:1995.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+280,IS 3224:2021,compressed gas valve,RELATED_STANDARD,Related standard mapping associated with IS 3224:2021.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-11-04-22.pdf
+281,IS 3224:2021,cylinder valve,RELATED_STANDARD,Related standard mapping associated with IS 3224:2021.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-11-04-22.pdf
+282,IS 3224:2021,leak tightness,RELATED_STANDARD,Related standard mapping associated with IS 3224:2021.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-11-04-22.pdf
+283,IS 3224:2021,pressure,RELATED_STANDARD,Related standard mapping associated with IS 3224:2021.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-11-04-22.pdf
+284,IS 3224:2021,gas cylinder,RELATED_STANDARD,Related standard mapping associated with IS 3224:2021.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-11-04-22.pdf
+285,IS 3224:2021,medical gas,RELATED_STANDARD,Related standard mapping associated with IS 3224:2021.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-11-04-22.pdf
+286,IS 3224:2021,industrial gas,RELATED_STANDARD,Related standard mapping associated with IS 3224:2021.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-11-04-22.pdf
+287,IS 4246:2002,LPG gas stove,RELATED_STANDARD,Related standard mapping associated with IS 4246:2002.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+288,IS 4246:2002,domestic gas stove,RELATED_STANDARD,Related standard mapping associated with IS 4246:2002.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+289,IS 4246:2002,burner,RELATED_STANDARD,Related standard mapping associated with IS 4246:2002.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+290,IS 4246:2002,cooking appliance,RELATED_STANDARD,Related standard mapping associated with IS 4246:2002.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+291,IS 4246:2002,LPG safety,RELATED_STANDARD,Related standard mapping associated with IS 4246:2002.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+292,IS 4246:2002,gas leakage,RELATED_STANDARD,Related standard mapping associated with IS 4246:2002.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses
+293,IS 9833:2018,food contact plastic,RELATED_STANDARD,Related standard mapping associated with IS 9833:2018.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+294,IS 9833:2018,colourants,RELATED_STANDARD,Related standard mapping associated with IS 9833:2018.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+295,IS 9833:2018,pigments,RELATED_STANDARD,Related standard mapping associated with IS 9833:2018.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+296,IS 9833:2018,packaging,RELATED_STANDARD,Related standard mapping associated with IS 9833:2018.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+297,IS 9833:2018,pharmaceuticals,RELATED_STANDARD,Related standard mapping associated with IS 9833:2018.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+298,IS 9833:2018,migration,RELATED_STANDARD,Related standard mapping associated with IS 9833:2018.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+299,IS 9845:1998,overall migration,RELATED_STANDARD,Related standard mapping associated with IS 9845:1998.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+300,IS 9845:1998,plastic packaging,RELATED_STANDARD,Related standard mapping associated with IS 9845:1998.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+301,IS 9845:1998,food contact,RELATED_STANDARD,Related standard mapping associated with IS 9845:1998.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+302,IS 9845:1998,migration test,RELATED_STANDARD,Related standard mapping associated with IS 9845:1998.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+303,IS 9845:1998,foodstuffs,RELATED_STANDARD,Related standard mapping associated with IS 9845:1998.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+304,IS 9845:1998,packaging compliance,RELATED_STANDARD,Related standard mapping associated with IS 9845:1998.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+305,IS 10142:1999,polystyrene,RELATED_STANDARD,Related standard mapping associated with IS 10142:1999.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+306,IS 10142:1999,PS,RELATED_STANDARD,Related standard mapping associated with IS 10142:1999.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+307,IS 10142:1999,food contact,RELATED_STANDARD,Related standard mapping associated with IS 10142:1999.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+308,IS 10142:1999,pharmaceutical packaging,RELATED_STANDARD,Related standard mapping associated with IS 10142:1999.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+309,IS 10142:1999,drinking water,RELATED_STANDARD,Related standard mapping associated with IS 10142:1999.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+310,IS 10142:1999,plastic packaging,RELATED_STANDARD,Related standard mapping associated with IS 10142:1999.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+311,IS 10146:1982,polyethylene,RELATED_STANDARD,Related standard mapping associated with IS 10146:1982.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=OTAxNg%3D%3D
+312,IS 10146:1982,PE,RELATED_STANDARD,Related standard mapping associated with IS 10146:1982.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=OTAxNg%3D%3D
+313,IS 10146:1982,food contact,RELATED_STANDARD,Related standard mapping associated with IS 10146:1982.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=OTAxNg%3D%3D
+314,IS 10146:1982,drinking water,RELATED_STANDARD,Related standard mapping associated with IS 10146:1982.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=OTAxNg%3D%3D
+315,IS 10146:1982,pharmaceutical packaging,RELATED_STANDARD,Related standard mapping associated with IS 10146:1982.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=OTAxNg%3D%3D
+316,IS 10146:1982,plastic packaging,RELATED_STANDARD,Related standard mapping associated with IS 10146:1982.,https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=OTAxNg%3D%3D
+317,IS 10148:2023,PVC,RELATED_STANDARD,Related standard mapping associated with IS 10148:2023.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+318,IS 10148:2023,polyvinyl chloride,RELATED_STANDARD,Related standard mapping associated with IS 10148:2023.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+319,IS 10148:2023,food contact,RELATED_STANDARD,Related standard mapping associated with IS 10148:2023.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+320,IS 10148:2023,positive list,RELATED_STANDARD,Related standard mapping associated with IS 10148:2023.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+321,IS 10148:2023,pharmaceuticals,RELATED_STANDARD,Related standard mapping associated with IS 10148:2023.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+322,IS 10148:2023,drinking water,RELATED_STANDARD,Related standard mapping associated with IS 10148:2023.,https://www.services.bis.gov.in/tmp/WCPCD5224847_13022024_1.pdf
+323,IS 10151:2019,PVC,RELATED_STANDARD,Related standard mapping associated with IS 10151:2019.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=OTI4
+324,IS 10151:2019,food contact,RELATED_STANDARD,Related standard mapping associated with IS 10151:2019.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=OTI4
+325,IS 10151:2019,pharmaceuticals,RELATED_STANDARD,Related standard mapping associated with IS 10151:2019.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=OTI4
+326,IS 10151:2019,drinking water,RELATED_STANDARD,Related standard mapping associated with IS 10151:2019.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=OTI4
+327,IS 10151:2019,plastic packaging,RELATED_STANDARD,Related standard mapping associated with IS 10151:2019.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=OTI4
+328,IS 10151:2019,migration,RELATED_STANDARD,Related standard mapping associated with IS 10151:2019.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=OTI4
+329,IS 10171:1999,food packaging,RELATED_STANDARD,Related standard mapping associated with IS 10171:1999.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjY1Ng%3D%3D
+330,IS 10171:1999,plastic packaging,RELATED_STANDARD,Related standard mapping associated with IS 10171:1999.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjY1Ng%3D%3D
+331,IS 10171:1999,suitability,RELATED_STANDARD,Related standard mapping associated with IS 10171:1999.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjY1Ng%3D%3D
+332,IS 10171:1999,food contact,RELATED_STANDARD,Related standard mapping associated with IS 10171:1999.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjY1Ng%3D%3D
+333,IS 10171:1999,packaging material,RELATED_STANDARD,Related standard mapping associated with IS 10171:1999.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjY1Ng%3D%3D
+334,IS 10171:1999,compatibility,RELATED_STANDARD,Related standard mapping associated with IS 10171:1999.,https://services.bis.gov.in/php/BIS_2.0/bisconnect/standard_review/Standard_review/Isdetails?ID=MjY1Ng%3D%3D
+335,IS 10910:1984,polypropylene,RELATED_STANDARD,Related standard mapping associated with IS 10910:1984.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+336,IS 10910:1984,PP,RELATED_STANDARD,Related standard mapping associated with IS 10910:1984.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+337,IS 10910:1984,food contact,RELATED_STANDARD,Related standard mapping associated with IS 10910:1984.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+338,IS 10910:1984,pharmaceutical packaging,RELATED_STANDARD,Related standard mapping associated with IS 10910:1984.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+339,IS 10910:1984,drinking water,RELATED_STANDARD,Related standard mapping associated with IS 10910:1984.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+340,IS 10910:1984,plastic packaging,RELATED_STANDARD,Related standard mapping associated with IS 10910:1984.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+341,IS 12252:2017,PET,RELATED_STANDARD,Related standard mapping associated with IS 12252:2017.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+342,IS 12252:2017,PBT,RELATED_STANDARD,Related standard mapping associated with IS 12252:2017.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+343,IS 12252:2017,polyester,RELATED_STANDARD,Related standard mapping associated with IS 12252:2017.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+344,IS 12252:2017,food contact,RELATED_STANDARD,Related standard mapping associated with IS 12252:2017.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+345,IS 12252:2017,pharmaceutical packaging,RELATED_STANDARD,Related standard mapping associated with IS 12252:2017.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+346,IS 12252:2017,plastic containers,RELATED_STANDARD,Related standard mapping associated with IS 12252:2017.,https://www.services.bis.gov.in/tmp/WCPCD5623123_02082023_1.pdf
+347,IS 14625:2015,feeding bottle,RELATED_STANDARD,Related standard mapping associated with IS 14625:2015.,https://www.services.bis.gov.in/tmp/Circular_qNxv_2023-06-09.pdf
+348,IS 14625:2015,baby bottle,RELATED_STANDARD,Related standard mapping associated with IS 14625:2015.,https://www.services.bis.gov.in/tmp/Circular_qNxv_2023-06-09.pdf
+349,IS 14625:2015,plastic bottle,RELATED_STANDARD,Related standard mapping associated with IS 14625:2015.,https://www.services.bis.gov.in/tmp/Circular_qNxv_2023-06-09.pdf
+350,IS 14625:2015,infant,RELATED_STANDARD,Related standard mapping associated with IS 14625:2015.,https://www.services.bis.gov.in/tmp/Circular_qNxv_2023-06-09.pdf
+351,IS 14625:2015,food contact,RELATED_STANDARD,Related standard mapping associated with IS 14625:2015.,https://www.services.bis.gov.in/tmp/Circular_qNxv_2023-06-09.pdf
+352,IS 14625:2015,migration,RELATED_STANDARD,Related standard mapping associated with IS 14625:2015.,https://www.services.bis.gov.in/tmp/Circular_qNxv_2023-06-09.pdf
+353,IS 14625:2015,packaging,RELATED_STANDARD,Related standard mapping associated with IS 14625:2015.,https://www.services.bis.gov.in/tmp/Circular_qNxv_2023-06-09.pdf
+354,IS 15410:2025,plastic bottle,RELATED_STANDARD,Related standard mapping associated with IS 15410:2025.,https://www.services.bis.gov.in/tmp/Circular_862i_2025-09-04.pdf
+355,IS 15410:2025,drinking water bottle,RELATED_STANDARD,Related standard mapping associated with IS 15410:2025.,https://www.services.bis.gov.in/tmp/Circular_862i_2025-09-04.pdf
+356,IS 15410:2025,packaged drinking water,RELATED_STANDARD,Related standard mapping associated with IS 15410:2025.,https://www.services.bis.gov.in/tmp/Circular_862i_2025-09-04.pdf
+357,IS 15410:2025,mineral water,RELATED_STANDARD,Related standard mapping associated with IS 15410:2025.,https://www.services.bis.gov.in/tmp/Circular_862i_2025-09-04.pdf
+358,IS 15410:2025,PET container,RELATED_STANDARD,Related standard mapping associated with IS 15410:2025.,https://www.services.bis.gov.in/tmp/Circular_862i_2025-09-04.pdf
+359,IS 15410:2025,packaging,RELATED_STANDARD,Related standard mapping associated with IS 15410:2025.,https://www.services.bis.gov.in/tmp/Circular_862i_2025-09-04.pdf
+360,IS 15532:2004,plastic crate,RELATED_STANDARD,Related standard mapping associated with IS 15532:2004.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-14-11-26.pdf
+361,IS 15532:2004,fruits,RELATED_STANDARD,Related standard mapping associated with IS 15532:2004.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-14-11-26.pdf
+362,IS 15532:2004,vegetables,RELATED_STANDARD,Related standard mapping associated with IS 15532:2004.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-14-11-26.pdf
+363,IS 15532:2004,food logistics,RELATED_STANDARD,Related standard mapping associated with IS 15532:2004.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-14-11-26.pdf
+364,IS 15532:2004,stacking,RELATED_STANDARD,Related standard mapping associated with IS 15532:2004.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-14-11-26.pdf
+365,IS 15532:2004,impact strength,RELATED_STANDARD,Related standard mapping associated with IS 15532:2004.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-14-11-26.pdf
+366,IS 15532:2004,food-grade plastic,RELATED_STANDARD,Related standard mapping associated with IS 15532:2004.,https://www.services.bis.gov.in/tmp/tbl5_2024-11-14-11-26.pdf
+367,IS 11652:2017,HDPE sack,RELATED_STANDARD,Related standard mapping associated with IS 11652:2017.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+368,IS 11652:2017,PP woven sack,RELATED_STANDARD,Related standard mapping associated with IS 11652:2017.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+369,IS 11652:2017,cement bag,RELATED_STANDARD,Related standard mapping associated with IS 11652:2017.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+370,IS 11652:2017,50 kg bag,RELATED_STANDARD,Related standard mapping associated with IS 11652:2017.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+371,IS 11652:2017,woven packaging,RELATED_STANDARD,Related standard mapping associated with IS 11652:2017.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+372,IS 11652:2017,cement packaging,RELATED_STANDARD,Related standard mapping associated with IS 11652:2017.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+373,IS 16709:2017,PP woven sack,RELATED_STANDARD,Related standard mapping associated with IS 16709:2017.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+374,IS 16709:2017,laminated sack,RELATED_STANDARD,Related standard mapping associated with IS 16709:2017.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+375,IS 16709:2017,valve sack,RELATED_STANDARD,Related standard mapping associated with IS 16709:2017.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+376,IS 16709:2017,block bottom,RELATED_STANDARD,Related standard mapping associated with IS 16709:2017.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+377,IS 16709:2017,cement bag,RELATED_STANDARD,Related standard mapping associated with IS 16709:2017.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+378,IS 16709:2017,50 kg packaging,RELATED_STANDARD,Related standard mapping associated with IS 16709:2017.,https://www.services.bis.gov.in/php/BIS_2.0/trainings/HomeUser/capsule_courses_factsheet
+379,IS 13997:2014,large open top drum,RELATED_STANDARD,Related standard mapping associated with IS 13997:2014.,https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en
+380,IS 13997:2014,industrial drum,RELATED_STANDARD,Related standard mapping associated with IS 13997:2014.,https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en
+381,IS 13997:2014,metal packaging,RELATED_STANDARD,Related standard mapping associated with IS 13997:2014.,https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en
+382,IS 13997:2014,container,RELATED_STANDARD,Related standard mapping associated with IS 13997:2014.,https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en
+383,IS 13997:2014,storage drum,RELATED_STANDARD,Related standard mapping associated with IS 13997:2014.,https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en
+384,IS 13997:2014,packaging,RELATED_STANDARD,Related standard mapping associated with IS 13997:2014.,https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en
