@@ -1,5 +1,5 @@
 from fastapi import FastAPI,UploadFile,File
-
+from fastapi.middleware.cors import CORSMiddleware
 from app.schemas import MatchRequest, MatchResponse
 from app.similarity import find_similar_standards
 from app.pdf_parser import extract_text_from_pdf
@@ -8,6 +8,14 @@ app = FastAPI(
     title="ProcureIQ AI Service",
     description="Sematic Indian Standards Recommendation Engine",
     version ="1.0.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173","http://127.0.0.1:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 @app.get("/")
