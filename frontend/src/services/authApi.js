@@ -1,39 +1,15 @@
-function getAuthApiUrl(path) {
-  const baseUrl = import.meta.env.VITE_AUTH_API_URL?.trim();
-  if (!baseUrl) {
-    const error = new Error("Authentication is not connected yet. Your information has not been submitted.");
-    error.code = "AUTH_API_NOT_CONFIGURED";
-    throw error;
-  }
+import { apiRequest } from "./apiClient";
 
-  return `${baseUrl.replace(/\/+$/, "")}${path}`;
-}
-
-async function postAuth(path, payload) {
-  const response = await fetch(getAuthApiUrl(path), {
+function postAuth(path, payload) {
+  return apiRequest(path, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    auth: false,
     body: JSON.stringify(payload)
   });
-
-  const responseText = await response.text();
-  let data = {};
-  if (responseText) {
-    try {
-      data = JSON.parse(responseText);
-    } catch {
-      throw new Error("The authentication service returned an unreadable response.");
-    }
-  }
-
-  if (!response.ok) {
-    throw new Error(data.message || data.error || "Authentication request failed.");
-  }
-  return data;
 }
 
-export function registerUser({ fullName, email, organization, password }) {
-  return postAuth("/auth/register", { fullName, email, organization, password });
+export function registerUser({ fullName, email, password }) {
+  return postAuth("/auth/register", { name: fullName, email, password });
 }
 
 export function loginUser({ email, password }) {

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
 
 :root {
+  --font-ui: "Manrope", "Inter", system-ui, sans-serif;
   --bis-blue: #264796;
   --bis-red: #e31e24;
   --deep-navy: #101828;
@@ -8,6 +9,12 @@
   --white: #ffffff;
   --muted: #667085;
   --border: #e4e7ec;
+  --surface-primary: #ffffff;
+  --surface-secondary: #f7f9fc;
+  --surface-raised: rgba(255, 255, 255, 0.84);
+  --text-primary: #101828;
+  --text-secondary: #667085;
+  --text-link: #264796;
   --success: #12b76a;
   --warning: #f79009;
   --shadow-soft: 0 20px 50px rgba(16, 24, 40, 0.06);
@@ -27,7 +34,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Manrope", "Inter", system-ui, sans-serif;
+  font-family: var(--font-ui);
   background: var(--background);
   color: var(--deep-navy);
 }
@@ -2410,7 +2417,7 @@ a {
   overflow-x: clip;
   color: var(--auth-text);
   background: var(--auth-bg);
-  font-family: "Manrope", "Inter", system-ui, sans-serif;
+  font-family: inherit;
 }
 
 .auth-experience.auth-theme-dark {
@@ -6718,4 +6725,374 @@ h3 {
   .breadcrumb {
     font-size: 0.75rem;
   }
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+/* Global dark palette uses the same surfaces and text colors as the auth dark theme. */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #0b1220;
+  --white: #111827;
+  --deep-navy: #f8fafc;
+  --muted: #b3bdcc;
+  --border: #283449;
+  --surface-primary: #111827;
+  --surface-secondary: #172033;
+  --surface-raised: rgba(23, 32, 51, 0.88);
+  --text-primary: #f8fafc;
+  --text-secondary: #b3bdcc;
+  --text-link: #a9bfff;
+  --shadow-soft: 0 20px 50px rgba(0, 0, 0, 0.22);
+  --shadow-card: 0 16px 32px rgba(0, 0, 0, 0.24);
+}
+
+:root[data-theme="dark"] body,
+:root[data-theme="dark"] #root {
+  background: #0b1220;
+  color: #f8fafc;
+}
+
+:root[data-theme="dark"] :is(.page-shell, .admin-page, .landing-page) {
+  background-color: #0b1220;
+  color: #f8fafc;
+}
+
+:root[data-theme="dark"] :is(
+  .navbar, .dashboard-header, .search-panel, .results-panel, .quick-actions-card,
+  .recent-searches-card, .result-card, .standard-library-card, .library-stat-card,
+  .details-header-card, .info-section, .verification-card, .library-empty-state,
+  .library-search-v2, .library-filter-control select, .breadcrumb,
+  .about-v2-section, .about-pillar-card, .about-idea-panel, .about-tech-card,
+  .about-v2-cta, .workflow-section, .about-hero, .about-metric-card,
+  .auth-card, .admin-panel, .admin-table, .admin-stats > div, .hero-visual,
+  .intel-card, .intel-results, .intel-standard-card, .admin-sidebar,
+  .admin-topbar, .admin-add-form, .auth-form-panel
+) {
+  background-color: #111827;
+  color: #f8fafc;
+  border-color: #283449;
+}
+
+:root[data-theme="dark"] :is(
+  .empty-results, .standards-library-results-bar, .library-category-chip,
+  .standard-detail-item, .related-empty, .secondary-btn, .library-reset-button,
+  .standards-pagination button, .workflow-step-content, .admin-table-row
+) {
+  background-color: #172033;
+  color: #e5e7eb;
+  border-color: #283449;
+}
+
+:root[data-theme="dark"] :is(
+  .page-shell h1, .page-shell h2, .page-shell h3, .page-shell p,
+  .page-shell label, .page-shell .nav-link, .page-shell .dashboard-nav a,
+  .page-shell .standard-number, .page-shell .result-meta, .page-shell .breadcrumb a,
+  .page-shell .library-filter-control span, .page-shell .standard-detail-item span,
+  .page-shell .standard-detail-item strong, .landing-page h1, .landing-page h2,
+  .landing-page h3, .landing-page p, .landing-page span, .landing-page .mini-tag,
+  .about-shell h1, .about-shell h2, .about-shell h3, .about-shell p,
+  .about-shell span, .about-shell .breadcrumb a,
+  .admin-page h1, .admin-page h2,
+  .admin-page h3, .admin-page p, .admin-page th, .admin-page td
+) {
+  color: #e5e7eb;
+}
+
+:root[data-theme="dark"] :is(input, select, textarea) {
+  color: #f8fafc;
+  background-color: #172033;
+  border-color: #38465d;
+}
+
+:root[data-theme="dark"] .hero-stat,
+:root[data-theme="dark"] .quick-action-card {
+  background-color: #172033;
+  color: #e5e7eb;
+  border-color: #283449;
+}
+
+:root[data-theme="dark"] .hero-stat strong,
+:root[data-theme="dark"] .hero-stat span,
+:root[data-theme="dark"] .quick-action-card {
+  color: #e5e7eb;
+}
+
+:root[data-theme="dark"] input::placeholder,
+:root[data-theme="dark"] textarea::placeholder {
+  color: #98a2b3;
+}
+
+:root[data-theme="dark"] .auth-header-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+:root[data-theme="dark"] .auth-language-control select {
+  color: #f8fafc;
+  background-color: #172033;
+  border-color: #38465d;
+}
+
+/* Shared dark surfaces cover legacy and current component class systems. */
+:root[data-theme="dark"] .page-shell :is(
+  [class*="-card"], [class*="-panel"], [class*="-stat"],
+  [class*="-step-content"], [class*="-empty-state"], [class*="-tools"],
+  [class*="-search-v2"], [class*="-chip"], [class*="-row"],
+  [class*="-index-mark"], [class*="-metric"]
+),
+:root[data-theme="dark"] .page-shell :is(
+  .hero-visual, .about-hero, .about-v2-hero, .about-idea-panel,
+  .about-v2-cta, .workflow-section, .library-filter-control select
+),
+:root[data-theme="dark"] .admin-page :is(
+  [class*="-card"], [class*="-panel"], [class*="-stat"],
+  [class*="-row"], [class*="-form"]
+) {
+  background-color: var(--surface-primary);
+  background-image: none;
+  border-color: var(--border);
+  color: var(--text-primary);
+  box-shadow: var(--shadow-card);
+}
+
+:root[data-theme="dark"] .landing-page :is(.hero-visual, .hero-stat, .intel-card, .intel-results, .intel-standard-card) {
+  background-color: var(--surface-primary);
+  background-image: none;
+  border-color: var(--border);
+  color: var(--text-primary);
+  box-shadow: var(--shadow-card);
+}
+
+:root[data-theme="dark"] .page-shell :is(
+  [class*="-card"], [class*="-panel"], [class*="-stat"],
+  [class*="-step-content"], [class*="-empty-state"], [class*="-tools"],
+  [class*="-search-v2"], [class*="-chip"], [class*="-row"],
+  [class*="-index-mark"], [class*="-metric"]
+) :is(h1, h2, h3, p, strong, small, label, span),
+:root[data-theme="dark"] .landing-page :is(.hero-stat, .intel-card, .intel-results, .intel-standard-card) :is(h1, h2, h3, p, strong, small, label, span),
+:root[data-theme="dark"] .admin-page :is([class*="-card"], [class*="-panel"], [class*="-stat"], [class*="-row"], [class*="-form"]) :is(h1, h2, h3, p, strong, small, label, span) {
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] .page-shell :is(a, .nav-link, .standard-card-id, .standard-card-footer, .library-search-icon, .library-empty-icon, .about-cta-kicker),
+:root[data-theme="dark"] .breadcrumb a,
+:root[data-theme="dark"] .landing-page .hero-stat strong {
+  color: var(--text-link);
+}
+
+:root[data-theme="dark"] .page-shell :is(
+  .section-kicker, .example-text, .result-meta, .standard-card-metadata span,
+  .standard-card-certification span, .standards-library-results-bar,
+  .standards-total-context, .library-filter-control > span, .about-hero-accent,
+  .about-tech-index, .related-empty, .related-standard-unavailable small
+) {
+  color: var(--text-secondary);
+}
+
+:root[data-theme="dark"] .page-shell :is(
+  .related-standards-list a, .related-standard-unavailable, .about-idea-node
+) {
+  background-color: var(--surface-secondary);
+  border-color: var(--border);
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] .page-shell .related-standards-list a:hover {
+  background-color: var(--surface-primary);
+  border-color: var(--border);
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] .page-shell .quick-action-icon {
+  background-color: rgba(139, 168, 245, 0.14);
+  color: var(--text-link);
+}
+
+:root[data-theme="dark"] .page-shell :is(.status-badge-current, .standard-card-status) {
+  background-color: rgba(18, 183, 106, 0.16);
+  border-color: rgba(110, 231, 183, 0.32);
+  color: #a7f3d0;
+}
+
+:root[data-theme="dark"] .page-shell .status-badge-inactive {
+  background-color: rgba(227, 30, 36, 0.16);
+  border-color: rgba(255, 120, 125, 0.32);
+  color: #ffb4b7;
+}
+
+:root[data-theme="dark"] .page-shell :is(.status-badge-neutral, .search-context) {
+  background-color: var(--surface-secondary);
+  border-color: var(--border);
+  color: var(--text-secondary);
+}
+
+:root[data-theme="dark"] .page-shell :is(.library-category-chip, .standards-pagination button, .nav-menu-toggle, .secondary-btn),
+:root[data-theme="dark"] .page-shell :is(.library-category-chip, .standards-pagination button, .nav-link):hover,
+:root[data-theme="dark"] .page-shell :is(.library-category-chip.is-selected, .standards-pagination button[aria-current="page"], .nav-link.active) {
+  background-color: var(--surface-secondary);
+  border-color: var(--border);
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] .page-shell :is(
+  .result-card:hover, .standard-library-card:hover, .about-pillar-card:hover,
+  .related-standards-list a:hover, .library-category-chip:hover,
+  .standards-pagination button:hover:not(:disabled)
+) {
+  border-color: #52627f;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.34);
+}
+
+:root[data-theme="dark"] .page-shell :is(input, select, textarea),
+:root[data-theme="dark"] .page-shell .library-search-v2 {
+  background-color: var(--surface-secondary);
+  border-color: #38465d;
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] .page-shell :is(input, textarea)::placeholder {
+  color: var(--text-secondary);
+  opacity: 1;
+}
+
+:root[data-theme="dark"] .page-shell :is(input, select, textarea):focus-visible,
+:root[data-theme="dark"] .page-shell :is(button, a):focus-visible {
+  outline-color: #9bb5ff;
+  border-color: #7892cc;
+}
+
+:root[data-theme="dark"] .page-shell :is(.primary-btn, .get-started, .admin-primary) {
+  background-color: #264796;
+  color: #ffffff;
+}
+
+:root[data-theme="dark"] :is(.primary-btn, .get-started, .admin-primary, .auth-submit) {
+  color: #ffffff;
+}
+
+:root[data-theme="dark"] :is(.secondary-btn, .login-button, .nav-menu-toggle) {
+  background-color: var(--surface-secondary);
+  border-color: var(--border);
+  color: var(--text-link);
+}
+
+:root[data-theme="dark"] .page-shell :is(.about-v2-hero, .about-idea-panel, .about-v2-cta, .hero-visual) {
+  background-image: linear-gradient(145deg, #111827, #172033 72%, #111827);
+}
+
+:root[data-theme="dark"] .page-shell .about-metric-card {
+  background-image: linear-gradient(135deg, #264796, #172a4d);
+  color: #ffffff;
+}
+
+:root[data-theme="dark"] .page-shell .about-metric-card :is(strong, span) {
+  color: #ffffff;
+}
+
+:root[data-theme="dark"] .landing-page .intel-card {
+  background-image: linear-gradient(120deg, #111827, #172033);
+}
+
+:root[data-theme="dark"] .landing-page .mini-live {
+  background-color: rgba(18, 183, 106, 0.16);
+  color: #a7f3d0;
+}
+
+:root[data-theme="dark"] .page-shell :is(.about-pillar-icon-1, .about-pillar-icon-3) {
+  background-color: rgba(139, 168, 245, 0.16);
+  color: #a9bfff;
+}
+
+:root[data-theme="dark"] .page-shell .about-pillar-icon-2 {
+  background-color: rgba(255, 90, 96, 0.15);
+  color: #ffb4b7;
+}
+
+:root[data-theme="dark"] .page-shell .about-pillar-icon-4 {
+  background-color: rgba(18, 183, 106, 0.16);
+  color: #a7f3d0;
+}
+
+:root[data-theme="dark"] .landing-page::before {
+  opacity: 0.32;
+}
+
+:root[data-theme="dark"] .landing-page a,
+:root[data-theme="dark"] .admin-page a {
+  color: var(--text-link);
+}
+
+:root[data-theme="dark"] .landing-page :is(.primary-btn, .get-started),
+:root[data-theme="dark"] .admin-page :is(.primary-btn, .get-started, .admin-primary) {
+  color: #ffffff;
+}
+
+:root[data-theme="dark"] .admin-page :is(.admin-sidebar, .admin-topbar, .admin-content) {
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] .about-idea-panel::before,
+:root[data-theme="dark"] .hero-visual::before {
+  opacity: 0.55;
+}
+
+/* Shared labels and compact actions use the dark surface palette in dark mode. */
+:root[data-theme="dark"] :is(
+  .section-kicker:not(.light-kicker), .recent-list button, .chip,
+  .score-pill, .result-count
+) {
+  background-color: var(--surface-secondary);
+  border-color: var(--border);
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] :is(.chip.active, .chip[aria-pressed="true"], .score-pill.blue, .result-count) {
+  background-color: rgba(139, 168, 245,  0.15);
+  border-color: rgba(139, 168, 245, 0.3);
+  color: #b8caff;
+}
+
+:root[data-theme="dark"] .score-pill.red {
+  background-color: rgba(255, 90, 96, 0.15);
+  border-color: rgba(255, 120, 125, 0.3);
+  color: #ffb4b7;
+}
+
+:root[data-theme="dark"] .live-pill {
+  background-color: rgba(18, 183, 106, 0.15);
+  border-color: rgba(110, 231, 183, 0.3);
+  color: #a7f3d0;
+}
+
+:root[data-theme="dark"] :is(
+  .recent-list button:hover, .chip:hover, .library-category-chip:hover,
+  .recent-list button:focus-visible, .chip:focus-visible,
+  .library-category-chip:focus-visible
+) {
+  background-color: #202c41;
+  border-color: #52627f;
+  color: #f8fafc;
+}
+
+:root[data-theme="dark"] :is(.chip.active:hover, .chip.active:focus-visible, .chip[aria-pressed="true"]:hover, .chip[aria-pressed="true"]:focus-visible) {
+  background-color: #263654;
+  border-color: #7892cc;
+  color: #ffffff;
+}
+
+.dashboard-nav + .auth-header-controls,
+.nav-actions > .auth-header-controls {
+  flex-shrink: 0;
 }

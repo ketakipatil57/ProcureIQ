@@ -1,5 +1,7 @@
 import { motion, useReducedMotion } from "motion/react";
 import { Link } from "react-router-dom";
+import { useAuthText } from "./auth/AuthTextContext";
+import { hasUsableAccessToken } from "../services/apiClient";
 
 const recommendations = [
   { id: "IS 8112:2013", title: "Ordinary Portland Cement, 43 Grade", score: 68 },
@@ -8,7 +10,9 @@ const recommendations = [
 ];
 
 export default function Hero() {
+  const t = useAuthText();
   const shouldReduceMotion = useReducedMotion();
+  const findStandardsPath = hasUsableAccessToken() ? "/dashboard" : "/login";
 
   return (
     <main className="hero-section">
@@ -20,32 +24,32 @@ export default function Hero() {
       >
         <span className="section-kicker">
           <span className="kicker-dot">✦</span>
-          AI-POWERED PROCUREMENT INTELLIGENCE
+          {t("heroEyebrow")}
         </span>
 
         <h1>
-          Find the Right <span>Indian Standard</span>.
+          {t("heroTitleBefore")} <span>{t("heroTitleStandard")}</span>.
           <br />
-          Before You Procure.
+          {t("heroTitleAfter")}
         </h1>
 
         <p className="hero-description">
-          Turn tender language into standards you can trust. ProcureIQ reads the material, application, and procurement context to surface relevant Indian Standards.
+          {t("heroDescription")}
         </p>
 
         <div className="hero-actions">
-          <Link to="/login" className="primary-btn">
-            Find Standards
+          <Link to={findStandardsPath} className="primary-btn">
+            {t("findStandards")}
           </Link>
           <Link to="/standards" className="secondary-btn">
-            Explore Standards
+            {t("exploreStandards")}
           </Link>
         </div>
 
         <div className="hero-stats">
           <div className="hero-stat">
             <strong>60+</strong>
-            <span>Prototype Standards</span>
+            <span>{t("prototypeStandards")}</span>
           </div>
           <div className="hero-stat">
             <strong>4</strong>
@@ -53,11 +57,11 @@ export default function Hero() {
           </div>
           <div className="hero-stat">
             <strong>AI</strong>
-            <span>Semantic Matching</span>
+            <span>{t("semanticMatching")}</span>
           </div>
           <div className="hero-stat">
             <strong>PDF</strong>
-            <span>Tender Analysis</span>
+            <span>{t("tenderAnalysis")}</span>
           </div>
         </div>
       </motion.div>

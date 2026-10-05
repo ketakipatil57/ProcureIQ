@@ -5,10 +5,12 @@ import Navbar from "../components/Navbar";
 import Pagination from "../components/Pagination";
 import StandardCard from "../components/StandardCard";
 import { displayValue, loadStandards } from "../data/standards";
+import { useAuthText } from "../components/auth/AuthTextContext";
 
 const pageSize = 12;
 
 export default function StandardsPage() {
+  const t = useAuthText();
   const [standards, setStandards] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -101,8 +103,8 @@ export default function StandardsPage() {
               <span className="kicker-dot">✦</span>
               PROCUREIQ KNOWLEDGE BASE
             </span>
-            <h1>Indian Standards Library</h1>
-            <p>Explore, search and understand relevant Indian Standards.</p>
+            <h1>{t("libraryTitle")}</h1>
+            <p>{t("libraryIntro")}</p>
           </div>
           <span className="library-index-mark" aria-hidden="true">IS<span> / </span>IQ</span>
         </section>
@@ -110,33 +112,33 @@ export default function StandardsPage() {
         <section className="standards-library-stats" aria-label="Library overview">
           <div className="library-stat-card">
             <strong>{standards.length || "60"}</strong>
-            <span>Curated Standards</span>
+            <span>{t("curated")}</span>
           </div>
           <div className="library-stat-card">
             <strong>{categories.length || "4"}</strong>
-            <span>Categories</span>
+            <span>{t("categories")}</span>
           </div>
           <div className="library-stat-card">
-            <strong>Search</strong>
-            <span>Across the full corpus</span>
+            <strong>{t("searchButton")}</strong>
+            <span>{t("acrossCorpus")}</span>
           </div>
           <div className="library-stat-card library-stat-compliance">
-            <strong>Compliance</strong>
-            <span>Information</span>
+            <strong>{t("compliance")}</strong>
+            <span>{t("information")}</span>
           </div>
         </section>
 
-        <section className="standards-library-tools" aria-label="Search and filter standards">
+        <section className="standards-library-tools" aria-label={t("searchAllStandards")}>
           <label className="library-search-v2">
             <span className="library-search-icon" aria-hidden="true">⌕</span>
             <input
               value={search}
               onChange={(event) => updateFilter(setSearch, event.target.value)}
-              placeholder="Search by IS number, title, scope or keyword..."
-              aria-label="Search all standards"
+              placeholder={t("searchAllStandards")}
+              aria-label={t("searchAllStandards")}
             />
             {search && (
-              <button type="button" className="search-clear-button" onClick={() => updateFilter(setSearch, "")} aria-label="Clear search">
+              <button type="button" className="search-clear-button" onClick={() => updateFilter(setSearch, "")} aria-label={t("clearSearch")}>
                 ×
               </button>
             )}
@@ -144,30 +146,30 @@ export default function StandardsPage() {
 
           <div className="library-filter-row">
             <label className="library-filter-control">
-              <span>Category</span>
-              <select value={category} onChange={(event) => updateFilter(setCategory, event.target.value)} aria-label="Filter by category">
-                <option value="All">All categories</option>
+                <span>{t("category")}</span>
+              <select value={category} onChange={(event) => updateFilter(setCategory, event.target.value)} aria-label={t("filterByCategory")}>
+                <option value="All">{t("allCategories")}</option>
                 {categories.map((item) => <option value={item} key={item}>{item}</option>)}
               </select>
             </label>
             <label className="library-filter-control">
-              <span>Status</span>
-              <select value={status} onChange={(event) => updateFilter(setStatus, event.target.value)} aria-label="Filter by status">
-                <option value="All">All statuses</option>
+                <span>{t("status")}</span>
+              <select value={status} onChange={(event) => updateFilter(setStatus, event.target.value)} aria-label={t("filterByStatus")}>
+                <option value="All">{t("allStatuses")}</option>
                 {statuses.map((item) => <option value={item} key={item}>{displayValue(item)}</option>)}
               </select>
             </label>
             <label className="library-filter-control">
-              <span>Certification</span>
-              <select value={certification} onChange={(event) => updateFilter(setCertification, event.target.value)} aria-label="Filter by certification">
-                <option value="All">All certifications</option>
+                <span>{t("certification")}</span>
+              <select value={certification} onChange={(event) => updateFilter(setCertification, event.target.value)} aria-label={t("filterByCertification")}>
+                <option value="All">{t("allCertifications")}</option>
                 {certifications.map((item) => <option value={item} key={item}>{displayValue(item)}</option>)}
               </select>
             </label>
           </div>
         </section>
 
-        <div className="library-category-chips" role="group" aria-label="Quick category filters">
+        <div className="library-category-chips" role="group" aria-label={t("quickCategory")}>
           {["All", ...categories].map((item) => (
             <button
               key={item}
@@ -176,7 +178,7 @@ export default function StandardsPage() {
               onClick={() => updateFilter(setCategory, item)}
               aria-pressed={item === category}
             >
-              {item === "All" ? "All" : item}
+              {item === "All" ? t("all") : item}
             </button>
           ))}
         </div>
@@ -184,33 +186,33 @@ export default function StandardsPage() {
         <div className="standards-library-results-bar" aria-live="polite">
           <p>
             {filtered.length === 0
-              ? "Showing 0 standards"
-              : `Showing ${startIndex + 1}–${Math.min(startIndex + pageSize, filtered.length)} of ${filtered.length}${hasActiveFilters ? " matching" : ""} standards`}
+              ? `${t("showing")} 0 ${t("navStandards").toLowerCase()}`
+              : `${t("showing")} ${startIndex + 1}–${Math.min(startIndex + pageSize, filtered.length)} ${t("of")} ${filtered.length}${hasActiveFilters ? ` (${t("matches")})` : ""} ${t("navStandards").toLowerCase()}`}
             {hasActiveFilters && standards.length > 0 && (
-              <span className="standards-total-context"> ({filtered.length} of {standards.length} total)</span>
+              <span className="standards-total-context"> ({filtered.length} {t("of")} {standards.length} {t("total")})</span>
             )}
           </p>
           {hasActiveFilters && (
             <button type="button" className="library-reset-button" onClick={resetFilters}>
-              Reset filters <span aria-hidden="true">×</span>
+              {t("resetFilters")} <span aria-hidden="true">×</span>
             </button>
           )}
         </div>
 
         {loading ? (
-          <div className="library-empty-state" role="status">Loading standards…</div>
+          <div className="library-empty-state" role="status">{t("loadingStandards")}</div>
         ) : error ? (
           <div className="library-empty-state" role="alert">
-            <h3>Standards could not be loaded</h3>
-            <p>{error}</p>
+            <h3>{t("unableStandards")}</h3>
+            <p>{t("standardsUnavailable")}</p>
           </div>
         ) : filtered.length === 0 ? (
           <div className="library-empty-state">
             <span className="library-empty-icon" aria-hidden="true">⌕</span>
-            <h3>No standards found</h3>
-            <p>Try a different search term or adjust your filters.</p>
+            <h3>{t("noStandards")}</h3>
+            <p>{t("adjustFilters")}</p>
             <button type="button" className="primary-btn" onClick={resetFilters}>
-              Reset filters
+              {t("resetFilters")}
             </button>
           </div>
         ) : (

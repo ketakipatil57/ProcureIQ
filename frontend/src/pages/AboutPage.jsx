@@ -3,36 +3,37 @@ import { Link } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
 import Navbar from "../components/Navbar";
 import NetworkBackground from "../components/NetworkBackground";
+import { useAuthText } from "../components/auth/AuthTextContext";
 
 const pillars = [
   {
     icon: "Aa",
-    title: "Semantic Understanding",
-    description: "Reads intent and context beyond exact keyword matches."
+    title: "semanticUnderstanding",
+    description: "semanticDescription"
   },
   {
     icon: "文",
-    title: "Multilingual Input",
-    description: "Understands local-language phrasing and mixed-language queries."
+    title: "multilingualInput",
+    description: "multilingualDescription"
   },
   {
     icon: "IS",
-    title: "Standards Intelligence",
-    description: "Connects procurement needs to relevant Indian Standards."
+    title: "standardsIntelligence",
+    description: "standardsDescription"
   },
   {
     icon: "✓",
-    title: "Compliance Awareness",
-    description: "Surfaces certification and compliance context early."
+    title: "complianceAwareness",
+    description: "complianceDescription"
   }
 ];
 
 const productJourney = [
-  { title: "Procurement Requirement", detail: "Tender or brief" },
-  { title: "AI Understanding", detail: "Material, intent, context" },
-  { title: "Relevant Standards", detail: "Context-aware matches" },
-  { title: "Structured Intelligence", detail: "Connected information" },
-  { title: "Better Procurement Workflow", detail: "Clearer decisions" }
+  { title: "journeyNeed", detail: "journeyNeedText" },
+  { title: "journeyAI", detail: "journeyAIText" },
+  { title: "journeyStandards", detail: "journeyStandardsText" },
+  { title: "journeyInfo", detail: "journeyInfoText" },
+  { title: "journeyWorkflow", detail: "journeyWorkflowText" }
 ];
 
 const techStack = ["React", "FastAPI", "Sentence Transformers", "Spring Boot", "Redis"];
@@ -53,6 +54,7 @@ const journeyItem = {
 };
 
 export default function AboutPage() {
+  const t = useAuthText();
   const shouldReduceMotion = useReducedMotion();
   const initial = shouldReduceMotion ? false : "hidden";
 
@@ -74,12 +76,10 @@ export default function AboutPage() {
           >
             <span className="section-kicker">
               <span className="kicker-dot">✦</span>
-              ABOUT PROCUREIQ
+              {t("aboutKicker")}
             </span>
-            <h1>Making Indian Standards easier to discover.</h1>
-            <p>
-              ProcureIQ brings semantic AI and structured standards intelligence into the procurement workflow.
-            </p>
+            <h1>{t("aboutTitle")}</h1>
+            <p>{t("aboutIntro")}</p>
           </motion.div>
           <div className="about-hero-accent" aria-hidden="true">
             <span>INTELLIGENCE</span>
@@ -93,11 +93,11 @@ export default function AboutPage() {
             <div>
               <span className="section-kicker small-kicker">
                 <span className="kicker-dot">✦</span>
-                FOUR CORE PILLARS
+                {t("corePillars")}
               </span>
-              <h2>Standards discovery, made more intelligent.</h2>
+              <h2>{t("pillarsTitle")}</h2>
             </div>
-            <p>Purpose-built capabilities help move from everyday language to structured procurement insight.</p>
+            <p>{t("pillarsIntro")}</p>
           </div>
 
           <motion.div
@@ -117,8 +117,8 @@ export default function AboutPage() {
                 <span className={`about-pillar-icon about-pillar-icon-${index + 1}`} aria-hidden="true">
                   {pillar.icon}
                 </span>
-                <h3>{pillar.title}</h3>
-                <p>{pillar.description}</p>
+                <h3>{t(pillar.title)}</h3>
+                <p>{t(pillar.description)}</p>
               </motion.article>
             ))}
           </motion.div>
@@ -129,11 +129,11 @@ export default function AboutPage() {
             <div>
               <span className="section-kicker small-kicker">
                 <span className="kicker-dot">✦</span>
-                THE PRODUCT IDEA
+                {t("productIdea")}
               </span>
-              <h2>From a requirement to a better workflow.</h2>
+              <h2>{t("productIdeaTitle")}</h2>
             </div>
-            <p>Each step adds useful context, connecting the initial need to actionable standards intelligence.</p>
+            <p>{t("productIdeaIntro")}</p>
           </div>
 
           <div className="about-idea-panel">
@@ -164,8 +164,8 @@ export default function AboutPage() {
               {productJourney.map((step, index) => (
                 <motion.li className="about-idea-step" variants={journeyItem} key={step.title}>
                   <span className="about-idea-node">0{index + 1}</span>
-                  <h3>{step.title}</h3>
-                  <p>{step.detail}</p>
+                  <h3>{t(step.title)}</h3>
+                  <p>{t(step.detail)}</p>
                 </motion.li>
               ))}
             </motion.ol>
@@ -195,11 +195,11 @@ export default function AboutPage() {
 
         <section className="about-v2-cta">
           <div>
-            <span className="about-cta-kicker">DISCOVER WHAT APPLIES</span>
-            <h2>Find the standards behind better procurement.</h2>
+                <span className="about-cta-kicker">{t("aboutCtaKicker")}</span>
+            <h2>{t("aboutCtaTitle")}</h2>
           </div>
           <Link to="/standards" className="primary-btn">
-            Explore the Standards Library <span aria-hidden="true">→</span>
+            {t("aboutCtaButton")} <span aria-hidden="true">→</span>
           </Link>
         </section>
       </main>

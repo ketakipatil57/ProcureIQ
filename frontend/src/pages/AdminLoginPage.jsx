@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { motion } from "motion/react";
+import { useAuthText } from "../components/auth/AuthTextContext";
 
 export default function AdminLoginPage() {
+  const t = useAuthText();
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -28,7 +30,7 @@ export default function AdminLoginPage() {
         <div className="auth-visual-copy">
           <span className="section-kicker light-kicker">
             <span className="kicker-dot">✦</span>
-            ADMINISTRATION
+            {t("adminConsole")}
           </span>
           <h1>ProcureIQ Administration</h1>
           <p>Manage standards intelligence and procurement data with a secure operational dashboard.</p>
@@ -42,13 +44,13 @@ export default function AdminLoginPage() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.4 }}
         >
-          <div className="admin-badge">ADMIN CONSOLE</div>
-          <h2>Secure access</h2>
-          <p>Manage standards intelligence and procurement data.</p>
+          <div className="admin-badge">{t("adminConsole")}</div>
+          <h2>{t("secureAccess")}</h2>
+          <p>{t("adminIntro")}</p>
 
           <form onSubmit={handleLogin} className="auth-form">
             <label>
-              Admin Email
+              {t("adminEmail")}
               <input
                 type="email"
                 placeholder="admin@procureiq.in"
@@ -59,7 +61,7 @@ export default function AdminLoginPage() {
             </label>
 
             <label>
-              Password
+              {t("adminPassword")}
               <input
                 type="password"
                 placeholder="Enter admin password"
@@ -70,13 +72,13 @@ export default function AdminLoginPage() {
             </label>
 
             <button type="submit" className="primary-btn auth-submit admin-submit">
-              Enter Admin Console
+              {t("enterAdmin")}
             </button>
           </form>
 
           <div className="auth-links">
             <Link to="/login" className="back-home">
-              ← User Login
+              ← {t("userLogin")}
             </Link>
           </div>
         </motion.div>

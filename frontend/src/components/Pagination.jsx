@@ -1,10 +1,13 @@
+import { useAuthText } from "./auth/AuthTextContext";
+
 export default function Pagination({ page, pageCount, onPageChange }) {
+  const t = useAuthText();
   if (pageCount <= 1) return null;
 
   return (
     <nav className="standards-pagination" aria-label="Standards pages">
       <button type="button" onClick={() => onPageChange(page - 1)} disabled={page === 1}>
-        Previous
+        {t("previous")}
       </button>
       <div className="pagination-pages">
         {Array.from({ length: pageCount }, (_, index) => index + 1).map((pageNumber) => (
@@ -20,7 +23,7 @@ export default function Pagination({ page, pageCount, onPageChange }) {
         ))}
       </div>
       <button type="button" onClick={() => onPageChange(page + 1)} disabled={page === pageCount}>
-        Next
+        {t("next")}
       </button>
     </nav>
   );

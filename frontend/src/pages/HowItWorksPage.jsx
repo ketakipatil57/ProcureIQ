@@ -2,14 +2,16 @@ import { useEffect, useRef, useState } from "react";
 import { motion, useInView, useReducedMotion } from "motion/react";
 import Breadcrumb from "../components/Breadcrumb";
 import Navbar from "../components/Navbar";
+import { useAppPreferences } from "../components/PreferencesContext";
+import { useAuthText } from "../components/auth/AuthTextContext";
 
 const workflow = [
-  { title: "Requirement", detail: "Start with the need described in a tender or procurement brief." },
-  { title: "Semantic Understanding", detail: "Interpret material, application, and context—not just keywords." },
-  { title: "AI Matching", detail: "Find Indian Standards that best fit the understood requirement." },
-  { title: "Verification", detail: "Check relevant standard details and supporting relationships." },
-  { title: "Certification", detail: "Surface certification and compliance context for review." },
-  { title: "Procurement", detail: "Use the verified insight to make a more confident decision." }
+  { title: "wfNeed", detail: "wfNeedText" },
+  { title: "wfMeaning", detail: "wfMeaningText" },
+  { title: "wfMatch", detail: "wfMatchText" },
+  { title: "wfVerify", detail: "wfVerifyText" },
+  { title: "wfCertify", detail: "wfCertifyText" },
+  { title: "wfDecision", detail: "wfDecisionText" }
 ];
 
 function useViewportHeight() {
@@ -27,6 +29,8 @@ function useViewportHeight() {
 }
 
 function WorkflowStep({ step, index, isLast, activeStep, onActivate, viewportHeight }) {
+  const t = useAuthText();
+  const { theme } = useAppPreferences();
   const stepRef = useRef(null);
   const isInView = useInView(stepRef, {
     once: true,
@@ -48,8 +52,8 @@ function WorkflowStep({ step, index, isLast, activeStep, onActivate, viewportHei
       <div className="workflow-marker-column" aria-hidden="true">
         <motion.span
           className="step-index"
-          initial={shouldReduceMotion ? false : { scale: 0.86, backgroundColor: "#f2f4f7" }}
-          animate={isInView ? { scale: 1, backgroundColor: "rgba(38, 71, 150, 0.1)" } : undefined}
+          initial={shouldReduceMotion ? false : { scale: 0.86, backgroundColor: theme === "dark" ? "#172033" : "#f2f4f7" }}
+          animate={isInView ? { scale: 1, backgroundColor: theme === "dark" ? "rgba(139, 168, 245, 0.16)" : "rgba(38, 71, 150, 0.1)" } : undefined}
           transition={{ duration: shouldReduceMotion ? 0 : 0.38, ease: "easeOut" }}
         >
           {String(index + 1).padStart(2, "0")}
@@ -72,7 +76,7 @@ function WorkflowStep({ step, index, isLast, activeStep, onActivate, viewportHei
         animate={isInView ? { opacity: 1, x: 0 } : undefined}
         transition={{ duration: shouldReduceMotion ? 0 : 0.42, ease: "easeOut" }}
       >
-        <span className="workflow-step-label">STAGE {String(index + 1).padStart(2, "0")}</span>
+        <span className="workflow-step-label">{t("stage")} {String(index + 1).padStart(2, "0")}</span>
         <h3>{step.title}</h3>
         <p>{step.detail}</p>
       </motion.div>
@@ -81,6 +85,7 @@ function WorkflowStep({ step, index, isLast, activeStep, onActivate, viewportHei
 }
 
 export default function HowItWorksPage() {
+  const t = useAuthText();
   const [activeStep, setActiveStep] = useState(-1);
   const viewportHeight = useViewportHeight();
 
@@ -94,16 +99,14 @@ export default function HowItWorksPage() {
           <div className="about-copy">
             <span className="section-kicker">
               <span className="kicker-dot">✦</span>
-              HOW IT WORKS
+              {t("howKicker")}
             </span>
-            <h1>From requirement to reliable procurement insight.</h1>
-            <p>
-              ProcureIQ uses semantic understanding, standards matching, and compliance context to make procurement decisions more confident and faster.
-            </p>
+            <h1>{t("howTitle")}</h1>
+            <p>{t("howIntro")}</p>
           </div>
           <div className="about-metric-card">
-            <strong>6 Steps</strong>
-            <span>From query to decision</span>
+            <strong>{t("stepsFromQuery")}</strong>
+            <span>{t("queryToDecision")}</span>
           </div>
         </section>
 
@@ -111,16 +114,16 @@ export default function HowItWorksPage() {
           <div className="section-heading">
             <span className="section-kicker small-kicker">
               <span className="kicker-dot">✦</span>
-              PROCESS FLOW
+              {t("processFlow")}
             </span>
-            <h2>How the platform interprets a procurement requirement</h2>
+            <h2>{t("workflowTitle")}</h2>
           </div>
 
           <ol className="workflow-flow" aria-label="ProcureIQ procurement journey">
             {workflow.map((step, index) => (
               <WorkflowStep
                 key={step.title}
-                step={step}
+                step={{ title: t(step.title), detail: t(step.detail) }}
                 index={index}
                 isLast={index === workflow.length - 1}
                 activeStep={activeStep}

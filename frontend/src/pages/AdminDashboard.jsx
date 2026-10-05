@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
+import { useAuthText } from "../components/auth/AuthTextContext";
 
 const initialStandards = [
   {
@@ -23,6 +24,7 @@ const initialStandards = [
 ];
 
 export default function AdminDashboard() {
+  const t = useAuthText();
   const navigate = useNavigate();
   const [standards, setStandards] = useState(initialStandards);
   const [showForm, setShowForm] = useState(false);
@@ -51,18 +53,18 @@ export default function AdminDashboard() {
           ✦ Procure<span>IQ</span>
         </Link>
 
-        <div className="admin-label">ADMIN CONSOLE</div>
+          <div className="admin-label">{t("adminConsole")}</div>
 
         <nav className="admin-nav" aria-label="Admin navigation">
-          <a className="active">Dashboard</a>
-          <a>Standards</a>
-          <a>Certifications</a>
-          <a>Relationships</a>
-          <a>Settings</a>
+          <a className="active">{t("navDashboard")}</a>
+          <a>{t("navStandards")}</a>
+          <a>{t("certification")}</a>
+          <a>{t("relationships")}</a>
+          <a>{t("settings")}</a>
         </nav>
 
         <div className="admin-sidebar-bottom">
-          <Link to="/">← Main Website</Link>
+          <Link to="/">← {t("mainWebsite")}</Link>
           <button type="button" onClick={logout}>Logout</button>
         </div>
       </aside>
@@ -72,28 +74,28 @@ export default function AdminDashboard() {
           <div>
             <span className="section-kicker small-kicker admin-kicker">
               <span className="kicker-dot">✦</span>
-              ADMIN DASHBOARD
+              {t("adminDashboard")}
             </span>
-            <h1>Procurement Intelligence Control Center</h1>
+            <h1>{t("adminDashboardTitle")}</h1>
           </div>
-          <div className="admin-user">Admin</div>
+          <div className="admin-user">{t("adminName")}</div>
         </header>
 
         <section className="admin-stats">
           <div>
-            <span>Total Standards</span>
+            <span>{t("totalStandards")}</span>
             <strong>60</strong>
           </div>
           <div>
-            <span>Active Standards</span>
+            <span>{t("activeStandards")}</span>
             <strong>48</strong>
           </div>
           <div>
-            <span>Certification Records</span>
+            <span>{t("certificationRecords")}</span>
             <strong>24+</strong>
           </div>
           <div>
-            <span>Related Standards</span>
+            <span>{t("relatedStandards")}</span>
             <strong>384</strong>
           </div>
         </section>
@@ -103,34 +105,34 @@ export default function AdminDashboard() {
             <div>
               <span className="section-kicker small-kicker admin-kicker">
                 <span className="kicker-dot">✦</span>
-                STANDARDS MANAGEMENT
+                {t("standardsManagement")}
               </span>
-              <h2>Manage Standards</h2>
+              <h2>{t("manageStandards")}</h2>
             </div>
 
             <button type="button" className="primary-btn" onClick={() => setShowForm(!showForm)}>
-              + Add Standard
+              + {t("addStandard")}
             </button>
           </div>
 
           {showForm && (
             <div className="admin-add-form">
-              <div>Prototype add-standard form.</div>
+              <div>{t("prototypeForm")}</div>
               <button type="button" className="secondary-btn" onClick={addDemoStandard}>
-                Add Demo Standard
+                {t("addDemoStandard")}
               </button>
             </div>
           )}
 
           <div className="admin-table">
             <div className="admin-table-row admin-table-head">
-              <span>IS Number</span>
-              <span>Title</span>
-              <span>Category</span>
-              <span>Edition</span>
-              <span>Status</span>
-              <span>Certification</span>
-              <span>Actions</span>
+              <span>{t("isNumber")}</span>
+              <span>{t("standardTitleLabel")}</span>
+              <span>{t("category")}</span>
+              <span>{t("edition")}</span>
+              <span>{t("status")}</span>
+              <span>{t("certification")}</span>
+              <span>{t("actions")}</span>
             </div>
 
             {standards.map((standard) => (
@@ -141,7 +143,7 @@ export default function AdminDashboard() {
                 <span>2013</span>
                 <span><b className="status-pill">{standard.status}</b></span>
                 <span>BIS Product Certification</span>
-                <Link to={`/standards/${encodeURIComponent(standard.id)}`}>View →</Link>
+                <Link to={`/standards/${encodeURIComponent(standard.id)}`}>{t("viewDetails")} →</Link>
               </div>
             ))}
           </div>

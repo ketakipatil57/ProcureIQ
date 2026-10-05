@@ -1,13 +1,16 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
 import Navbar from "../components/Navbar";
 import StatusBadge from "../components/StatusBadge";
 import { displayValue, loadStandards, splitRelatedStandards } from "../data/standards";
+import { useAuthText } from "../components/auth/AuthTextContext";
 
 function DetailItem({ label, value }) {
+  const t = useAuthText();
   let shownValue = displayValue(value);
-  if (label === "Amendment Count" && shownValue !== "Not specified" && !/^\d+(?:\s+amendments?)?$/i.test(shownValue)) {
+  if (shownValue === "Not specified") shownValue = t("notSpecified");
+  if (label === t("amendmentCount") && shownValue !== t("notSpecified") && !/^\d+(?:\s+amendments?)?$/i.test(shownValue)) {
     shownValue = "Not stated in source";
   }
 
@@ -20,7 +23,10 @@ function DetailItem({ label, value }) {
 }
 
 export default function StandardDetailsPage() {
+  const t = useAuthText();
   const { id = "" } = useParams();
+  const location = useLocation();
+  const fromRecommendations = Boolean(location.state?.fromRecommendations);
   const [standards, setStandards] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -75,29 +81,37 @@ export default function StandardDetailsPage() {
       <main className="container details-page standards-details-page">
         <Breadcrumb
           items={[
-            { label: "Home", to: "/" },
-            { label: "Standards", to: "/standards" },
+            { label: t("home"), to: "/" },
+            { label: t("navStandards"), to: "/standards" },
             { label: standard?.id || id || "Standard details" }
           ]}
         />
 
+        {fromRecommendations && (
+          <Link to="/dashboard" state={{ fromRecommendations: true }} className="back-link">
+            ← Back to Results
+          </Link>
+        )}
+
         {loading ? (
-          <div className="library-empty-state" role="status">Loading standard details…</div>
+          <div className="library-empty-state" role="status">{t("loadingStandards")}</div>
         ) : error ? (
           <div className="library-empty-state" role="alert">
-            <h1>Standard details could not be loaded</h1>
-            <p>{error}</p>
+            <h1>{t("detailsLoadError")}</h1>
+            <p>{t("standardsUnavailable")}</p>
             <Link to="/standards" className="primary-btn">Back to Standards</Link>
           </div>
         ) : !standard ? (
           <div className="library-empty-state">
-            <h1>Standard not found</h1>
+            <h1>{t("notFound")}</h1>
             <p>This standard is not part of the current library.</p>
-            <Link to="/standards" className="primary-btn">Browse Standards</Link>
+            <Link to="/standards" className="primary-btn">{t("browseStandards")}</Link>
           </div>
         ) : (
           <>
-            <Link to="/standards" className="back-link">← Back to Standards</Link>
+            {!fromRecommendations && (
+              <Link to="/standards" className="back-link">← {t("backStandards")}</Link>
+            )}
             <section className="details-header-card">
               <div className="details-header-copy">
                 <span className="standard-number large">{standard.id}</span>
@@ -114,45 +128,45 @@ export default function StandardDetailsPage() {
                 <section className="info-section">
                   <span className="section-kicker small-kicker">
                     <span className="kicker-dot">✦</span>
-                    STANDARD OVERVIEW
+                    {t("overview")}
                   </span>
                   <div className="standard-details-grid">
-                    <DetailItem label="IS Number" value={standard.is_number} />
-                    <DetailItem label="Category" value={standard.category} />
-                    <DetailItem label="Edition Year" value={standard.edition_year} />
-                    <DetailItem label="Status" value={standard.status} />
-                    <DetailItem label="Superseding IS" value={standard.superseding_is} />
-                    <DetailItem label="Amendment Count" value={standard.amendment_count} />
-                    <DetailItem label="Latest Amendment Note" value={standard.latest_amendment_note} />
-                    <DetailItem label="Verification Status" value={standard.verification_status} />
+                    <DetailItem label={t("isNumber")} value={standard.is_number} />
+                    <DetailItem label={t("category")} value={standard.category} />
+                    <DetailItem label={t("editionYear")} value={standard.edition_year} />
+                    <DetailItem label={t("status")} value={standard.status} />
+                    <DetailItem label={t("superseding")} value={standard.superseding_is} />
+                    <DetailItem label={t("amendmentCount")} value={standard.amendment_count} />
+                    <DetailItem label={t("latestAmendment")} value={standard.latest_amendment_note} />
+                    <DetailItem label={t("verification")} value={standard.verification_status} />
                   </div>
                 </section>
 
                 <section className="info-section">
                   <span className="section-kicker small-kicker">
                     <span className="kicker-dot">✦</span>
-                    CERTIFICATION & COMPLIANCE
+                    {t("certificationCompliance")}
                   </span>
                   <div className="standard-details-grid">
-                    <DetailItem label="Certification Status" value={standard.certification_status} />
-                    <DetailItem label="Certification Type" value={standard.certification_type} />
-                    <DetailItem label="QCO Reference" value={standard.qco_reference} />
+                    <DetailItem label={t("certificationStatus")} value={standard.certification_status} />
+                    <DetailItem label={t("certificationType")} value={standard.certification_type} />
+                    <DetailItem label={t("qcoReference")} value={standard.qco_reference} />
                   </div>
                 </section>
 
                 <section className="info-section">
                   <span className="section-kicker small-kicker">
                     <span className="kicker-dot">✦</span>
-                    RELATED STANDARDS
+                    {t("relatedStandards")}
                   </span>
                   {relatedStandards.length === 0 ? (
-                    <p className="related-empty">Not specified</p>
+                    <p className="related-empty">{t("notSpecified")}</p>
                   ) : (
                     <ul className="related-standards-list">
                       {relatedStandards.map(({ label, match }) => (
                         <li key={label}>
                           {match ? (
-                            <Link to={`/standards/${encodeURIComponent(match.id)}`}>
+                            <Link to={`/standards/${encodeURIComponent(match.id)}`} state={location.state}>
                               <span>{match.id}</span>
                               <span aria-hidden="true">→</span>
                             </Link>
@@ -171,11 +185,9 @@ export default function StandardDetailsPage() {
               <aside className="details-side">
                 <div className="verification-card standard-verification-card">
                   <div className="verification-icon">✓</div>
-                  <h3>Procurement Intelligence</h3>
-                  <p>
-                    Use this standard as part of your procurement research and validate the latest applicability against authoritative sources before making a decision.
-                  </p>
-                  <Link to="/standards" className="primary-btn full-width">Explore all standards</Link>
+                  <h3>{t("procurementIntelligence")}</h3>
+                  <p>{t("procurementResearch")}</p>
+                  <Link to="/standards" className="primary-btn full-width">{t("exploreAll")}</Link>
                 </div>
               </aside>
             </div>

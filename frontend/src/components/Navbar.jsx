@@ -1,16 +1,21 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import { PreferenceControls } from "./AppPreferences";
+import { useAuthText } from "./auth/AuthTextContext";
+import { getStoredAccessToken } from "../services/apiClient";
 
 
 export default function Navbar() {
   const navigate = useNavigate();
-  const user = localStorage.getItem("procureiq_user");
+  const user = getStoredAccessToken();
+  const t = useAuthText();
   const [menuOpen, setMenuOpen] = useState(false);
 
   function logout() {
     localStorage.removeItem("procureiq_user");
     sessionStorage.removeItem("procureiq_access_token");
+    sessionStorage.removeItem("procureiq_recommendation_state");
     navigate("/");
   }
 
@@ -46,33 +51,34 @@ export default function Navbar() {
 
         <div className="nav-links" id="public-navigation" aria-label="Main navigation">
           <NavLink to="/standards" className={({ isActive }) => `nav-link${isActive ? " active" : ""}`} onClick={() => setMenuOpen(false)}>
-            Standards
+            {t("navStandards")}
           </NavLink>
           <NavLink to="/how-it-works" className={({ isActive }) => `nav-link${isActive ? " active" : ""}`} onClick={() => setMenuOpen(false)}>
-            How It Works
+            {t("navHow")}
           </NavLink>
           <NavLink to="/about" className={({ isActive }) => `nav-link${isActive ? " active" : ""}`} onClick={() => setMenuOpen(false)}>
-            About
+            {t("navAbout")}
           </NavLink>
         </div>
 
         <div className="nav-actions">
+          <PreferenceControls />
           {user ? (
             <>
               <Link to="/dashboard" className="dashboard-link" onClick={() => setMenuOpen(false)}>
-                Dashboard
+                {t("navDashboard")}
               </Link>
               <button type="button" className="login-button" onClick={() => { setMenuOpen(false); logout(); }}>
-                Logout
+                {t("logout")}
               </button>
             </>
           ) : (
             <>
               <Link to="/login" className="login-button" onClick={() => setMenuOpen(false)}>
-                Login
+                {t("navLogin")}
               </Link>
               <Link to="/register" className="get-started" onClick={() => setMenuOpen(false)}>
-                Get Started →
+                {t("navRegister")} →
               </Link>
             </>
           )}

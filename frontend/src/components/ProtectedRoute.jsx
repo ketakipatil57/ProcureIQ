@@ -1,4 +1,5 @@
 import { Navigate } from "react-router-dom";
+import { hasUsableAccessToken } from "../services/apiClient";
 
 
 export default function ProtectedRoute({
@@ -6,7 +7,6 @@ export default function ProtectedRoute({
   adminOnly = false
 }) {
 
-  const user = localStorage.getItem("procureiq_user");
   const admin = localStorage.getItem("procureiq_admin");
 
 
@@ -20,7 +20,7 @@ export default function ProtectedRoute({
   }
 
 
-  if (!user) {
+  if (!hasUsableAccessToken()) {
     return <Navigate to="/login" replace />;
   }
 
