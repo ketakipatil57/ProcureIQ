@@ -30,8 +30,8 @@ function LoginForm() {
       }
 
       sessionStorage.setItem("procureiq_access_token", token);
-      const userName = response.user?.fullName || response.user?.name || response.fullName || "";
-      localStorage.setItem("procureiq_user", JSON.stringify({ email, name: userName }));
+      const userName = response.user?.fullName || response.user?.name || response.fullName || response.name || "";
+      localStorage.setItem("procureiq_user", JSON.stringify({ email: response.email || email, name: userName }));
       navigate("/dashboard", { replace: true });
     } catch (error) {
       setMessage(error.code === "AUTH_API_NOT_CONFIGURED" ? t("apiNotConfigured") : error.message || t("loginFailed"));

@@ -49,8 +49,8 @@ export default function AdminDashboard() {
   return (
     <div className="admin-page">
       <aside className="admin-sidebar">
-        <Link to="/" className="admin-logo">
-          ✦ Procure<span>IQ</span>
+        <Link to="/" className="admin-logo" aria-label="ProcureIQ home">
+          <img src="/assets/procureiq-logo.png" alt="ProcureIQ" />
         </Link>
 
           <div className="admin-label">{t("adminConsole")}</div>

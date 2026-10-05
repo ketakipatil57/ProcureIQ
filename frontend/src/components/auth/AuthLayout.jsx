@@ -9,8 +9,7 @@ function AuthHeader() {
   return (
     <header className="auth-topbar">
       <Link to="/" className="auth-topbar-brand" aria-label="ProcureIQ home">
-        <img src="/assets/procureiq-logo.png" alt="" />
-        <span>ProcureIQ</span>
+        <img src="/assets/procureiq-logo.png" alt="ProcureIQ" />
       </Link>
       <PreferenceControls />
     </header>

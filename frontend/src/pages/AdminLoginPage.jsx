@@ -23,8 +23,8 @@ export default function AdminLoginPage() {
   return (
     <div className="auth-page admin-auth">
       <div className="auth-visual-panel admin-visual-panel">
-        <Link to="/" className="auth-brand">
-          ✦ Procure<span>IQ</span>
+        <Link to="/" className="auth-brand" aria-label="ProcureIQ home">
+          <img src="/assets/procureiq-logo.png" alt="ProcureIQ" />
         </Link>
 
         <div className="auth-visual-copy">

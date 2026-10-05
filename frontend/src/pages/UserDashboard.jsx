@@ -179,7 +179,7 @@ export default function UserDashboard() {
       <header className="dashboard-header">
         <div className="container nav-row">
           <Link to="/" className="dashboard-brand">
-            ✦ Procure<span>IQ</span>
+            <img src="/assets/procureiq-logo.png" alt="ProcureIQ" />
           </Link>
 
           <nav className="dashboard-nav" aria-label="Dashboard navigation">

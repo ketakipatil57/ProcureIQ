@@ -4,6 +4,7 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 import { PreferenceControls } from "./AppPreferences";
 import { useAuthText } from "./auth/AuthTextContext";
 import { getStoredAccessToken } from "../services/apiClient";
+import { clearUserSession } from "../services/userSession";
 
 
 export default function Navbar() {
@@ -13,9 +14,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   function logout() {
-    localStorage.removeItem("procureiq_user");
-    sessionStorage.removeItem("procureiq_access_token");
-    sessionStorage.removeItem("procureiq_recommendation_state");
+    clearUserSession();
     navigate("/");
   }
 
@@ -29,10 +28,7 @@ export default function Navbar() {
       <div className={`nav-inner${menuOpen ? " is-menu-open" : ""}`}>
         <Link to="/" className="brand" aria-label="ProcureIQ home">
           <span className="brand-logo-frame">
-            <img className="brand-logo" src="/assets/procureiq-logo.png" alt="" />
-          </span>
-          <span className="brand-name">
-            Procure<span>IQ</span>
+            <img className="brand-logo" src="/assets/procureiq-logo.png" alt="ProcureIQ" />
           </span>
         </Link>
 
@@ -67,6 +63,9 @@ export default function Navbar() {
             <>
               <Link to="/dashboard" className="dashboard-link" onClick={() => setMenuOpen(false)}>
                 {t("navDashboard")}
+              </Link>
+              <Link to="/profile" className="dashboard-link" onClick={() => setMenuOpen(false)}>
+                {t("profile")}
               </Link>
               <button type="button" className="login-button" onClick={() => { setMenuOpen(false); logout(); }}>
                 {t("logout")}
