@@ -81,7 +81,8 @@ The landing page introduces ProcureIQ and its AI-powered procurement workflow.
 
 A natural-language procurement requirement is semantically matched against the standards corpus and ranked by relevance.
 
-![Semantic Standard Recommendation](screenshots/semantic-recommendation.png)
+<img width="1917" height="907" alt="Screenshot 2026-10-06 011706" src="https://github.com/user-attachments/assets/db934033-027d-480a-9166-65da39ed0d42" />
+
 
 > Semantically ranks the most relevant Indian Standards from procurement requirements.
 
@@ -91,7 +92,8 @@ A natural-language procurement requirement is semantically matched against the s
 
 Users can upload a tender document and receive ranked Indian Standard recommendations enriched with structured information.
 
-![Tender PDF Recommendation](screenshots/tender-pdf-recommendation.png)
+<img width="1917" height="916" alt="Screenshot 2026-10-06 011841" src="https://github.com/user-attachments/assets/e6107bf6-9207-44fc-ae59-4e2a47ff5070" />
+
 
 > Analyzes tender documents to recommend relevant Indian Standards and compliance information.
 
@@ -101,7 +103,8 @@ Users can upload a tender document and receive ranked Indian Standard recommenda
 
 Each recommended standard can be explored to view structured information including edition, status, amendments, verification status, and compliance information.
 
-![Standard Details and Compliance](screenshots/standard-details.png)
+<img width="1917" height="907" alt="Screenshot 2026-10-06 012129" src="https://github.com/user-attachments/assets/4f70e772-6127-4aec-b036-b24579b8c2fd" />
+
 
 > Provides authoritative standard, edition, amendment and compliance information for procurement decisions.
 
@@ -111,7 +114,8 @@ Each recommended standard can be explored to view structured information includi
 
 The application interface can be switched between English, Hindi, and Marathi while maintaining the same procurement workflow.
 
-![Multilingual User Interface](screenshots/multilingual-ui.png)
+<img width="1917" height="916" alt="image" src="https://github.com/user-attachments/assets/a2502cb4-dc92-4405-8625-ab697816f747" />
+
 
 > The ProcureIQ interface supports English, Hindi, and Marathi for a more accessible procurement experience.
 
@@ -121,7 +125,8 @@ The application interface can be switched between English, Hindi, and Marathi wh
 
 Procurement requirements can be entered in supported languages independently of the selected website language.
 
-![Multilingual Procurement Input](screenshots/multilingual-input.png)
+<img width="1912" height="916" alt="image" src="https://github.com/user-attachments/assets/38b9ae9c-46a5-4f7f-b598-dcb715b5d3d3" />
+
 
 > Multilingual procurement inputs are semantically matched against the English Indian Standards corpus.
 
