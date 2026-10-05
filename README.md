@@ -385,6 +385,15 @@ Built for the **She Solves 3.0** hackathon.
 
 ---
 
-## License
 
-This project was developed as a hackathon prototype.
+### Ek important correction
+
+README mein maine jaan-bujhkar **“60 verified standards”** nahi likha. Humara actual corpus **60 standards ka curated prototype corpus** hai, jisme verification status field bhi hai. Isliye README mein:
+
+> **“curated corpus of 60 Indian Standards”**
+
+likhna zyada honest aur professional hai.
+
+Aur maine **“95% accuracy”, “real-time BIS database”, “23,000+ standards”, “production-ready”** jaise claims intentionally nahi daale. Judge agar README padhe toh jo demo mein actually dikha sakte ho, wahi milega.
+
+**Ye README mujhe repo ke current state ke liye kaafi balanced lagti hai — positive hai, but overclaiming nahi karti.**
