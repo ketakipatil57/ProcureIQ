@@ -38,6 +38,11 @@ The AI layer is responsible for semantic matching and ranking. Authoritative sta
   - Supports English, Hindi, Marathi, and Hinglish input.
   - The semantic model can match multilingual requirements against the English standard corpus.
 
+- **Multilingual User Interface**
+  - The application interface supports English, Hindi, and Marathi.
+  - UI language and procurement input language can be used independently.
+  - Authoritative Indian Standard titles and structured standard data remain in English.
+
 - **Indian Standards Context**
   - Displays standard number, title, category, scope, edition, and status.
   - Shows certification information, QCO references, amendments, and related standards where available.
@@ -56,6 +61,69 @@ The AI layer is responsible for semantic matching and ranking. Authoritative sta
 - **Theme and Language Preferences**
   - Light and dark themes.
   - English, Hindi, and Marathi interface support.
+
+---
+
+## Screenshots
+
+### 1. ProcureIQ Home — Light Mode
+
+The landing page introduces ProcureIQ and its AI-powered procurement workflow.
+
+<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/aefe2dee-b390-4e1a-95da-0f95fb2d0415" />
+
+
+> AI-powered platform for discovering relevant Indian Standards for smarter procurement.
+
+---
+
+### 2. Semantic AI-Based Standard Recommendation
+
+A natural-language procurement requirement is semantically matched against the standards corpus and ranked by relevance.
+
+![Semantic Standard Recommendation](screenshots/semantic-recommendation.png)
+
+> Semantically ranks the most relevant Indian Standards from procurement requirements.
+
+---
+
+### 3. Tender PDF Analysis
+
+Users can upload a tender document and receive ranked Indian Standard recommendations enriched with structured information.
+
+![Tender PDF Recommendation](screenshots/tender-pdf-recommendation.png)
+
+> Analyzes tender documents to recommend relevant Indian Standards and compliance information.
+
+---
+
+### 4. Standard Details and Compliance
+
+Each recommended standard can be explored to view structured information including edition, status, amendments, verification status, and compliance information.
+
+![Standard Details and Compliance](screenshots/standard-details.png)
+
+> Provides authoritative standard, edition, amendment and compliance information for procurement decisions.
+
+---
+
+### 5. Multilingual User Interface
+
+The application interface can be switched between English, Hindi, and Marathi while maintaining the same procurement workflow.
+
+![Multilingual User Interface](screenshots/multilingual-ui.png)
+
+> The ProcureIQ interface supports English, Hindi, and Marathi for a more accessible procurement experience.
+
+---
+
+### 6. Multilingual Procurement Input
+
+Procurement requirements can be entered in supported languages independently of the selected website language.
+
+![Multilingual Procurement Input](screenshots/multilingual-input.png)
+
+> Multilingual procurement inputs are semantically matched against the English Indian Standards corpus.
 
 ---
 
@@ -168,6 +236,14 @@ ProcureIQ/
 │   ├── standards.csv
 │   ├── certification_requirements.csv
 │   └── standard_relationships.csv
+│
+├── screenshots/
+│   ├── home-light.png
+│   ├── semantic-recommendation.png
+│   ├── tender-pdf-recommendation.png
+│   ├── standard-details.png
+│   ├── multilingual-ui.png
+│   └── multilingual-input.png
 │
 └── README.md
 ```
@@ -384,8 +460,6 @@ Built for the **She Solves 3.0** hackathon.
 - [paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
 
 ---
-
-
 
 ## License
 
