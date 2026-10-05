@@ -66,7 +66,7 @@ The AI layer is responsible for semantic matching and ranking. Authoritative sta
 
 ## Screenshots
 
-### 1. ProcureIQ Home — Light Mode
+### 1. ProcureIQ Home - Light Mode
 
 The landing page introduces ProcureIQ and its AI-powered procurement workflow.
 
@@ -81,7 +81,7 @@ The landing page introduces ProcureIQ and its AI-powered procurement workflow.
 
 A natural-language procurement requirement is semantically matched against the standards corpus and ranked by relevance.
 
-<img width="1917" height="907" alt="Screenshot 2026-10-06 011706" src="https://github.com/user-attachments/assets/db934033-027d-480a-9166-65da39ed0d42" />
+<img width="1917" height="910" alt="image" src="https://github.com/user-attachments/assets/04a9f81f-85f5-4950-b3fc-7e46151014c6" />
 
 
 > Semantically ranks the most relevant Indian Standards from procurement requirements.
