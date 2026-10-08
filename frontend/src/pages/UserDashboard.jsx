@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 import { apiRequest } from "../services/apiClient";
 import { PreferenceControls } from "../components/AppPreferences";
+import ProcureIQLogo from "../components/ProcureIQLogo";
 import { useAuthText } from "../components/auth/AuthTextContext";
 
 const quickActions = [
@@ -179,7 +180,7 @@ export default function UserDashboard() {
       <header className="dashboard-header">
         <div className="container nav-row">
           <Link to="/" className="dashboard-brand">
-            <img src="/assets/procureiq-logo.png" alt="ProcureIQ" />
+            <ProcureIQLogo />
           </Link>
 
           <nav className="dashboard-nav" aria-label="Dashboard navigation">

@@ -3,13 +3,14 @@ import { motion, useReducedMotion } from "motion/react";
 import { useAuthText } from "./AuthTextContext";
 import { PreferenceControls } from "../AppPreferences";
 import { useAppPreferences } from "../PreferencesContext";
+import ProcureIQLogo from "../ProcureIQLogo";
 
 
 function AuthHeader() {
   return (
     <header className="auth-topbar">
       <Link to="/" className="auth-topbar-brand" aria-label="ProcureIQ home">
-        <img src="/assets/procureiq-logo.png" alt="ProcureIQ" />
+        <ProcureIQLogo />
       </Link>
       <PreferenceControls />
     </header>

@@ -1,6 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useAuthText } from "../components/auth/AuthTextContext";
+import ProcureIQLogo from "../components/ProcureIQLogo";
 
 const initialStandards = [
   {
@@ -50,7 +51,7 @@ export default function AdminDashboard() {
     <div className="admin-page">
       <aside className="admin-sidebar">
         <Link to="/" className="admin-logo" aria-label="ProcureIQ home">
-          <img src="/assets/procureiq-logo.png" alt="ProcureIQ" />
+          <ProcureIQLogo />
         </Link>
 
           <div className="admin-label">{t("adminConsole")}</div>

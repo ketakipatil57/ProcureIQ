@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { motion } from "motion/react";
 import { useAuthText } from "../components/auth/AuthTextContext";
+import ProcureIQLogo from "../components/ProcureIQLogo";
 
 export default function AdminLoginPage() {
   const t = useAuthText();
@@ -24,7 +25,7 @@ export default function AdminLoginPage() {
     <div className="auth-page admin-auth">
       <div className="auth-visual-panel admin-visual-panel">
         <Link to="/" className="auth-brand" aria-label="ProcureIQ home">
-          <img src="/assets/procureiq-logo.png" alt="ProcureIQ" />
+          <ProcureIQLogo />
         </Link>
 
         <div className="auth-visual-copy">

@@ -5,6 +5,7 @@ import { PreferenceControls } from "./AppPreferences";
 import { useAuthText } from "./auth/AuthTextContext";
 import { getStoredAccessToken } from "../services/apiClient";
 import { clearUserSession } from "../services/userSession";
+import ProcureIQLogo from "./ProcureIQLogo";
 
 
 export default function Navbar() {
@@ -28,7 +29,7 @@ export default function Navbar() {
       <div className={`nav-inner${menuOpen ? " is-menu-open" : ""}`}>
         <Link to="/" className="brand" aria-label="ProcureIQ home">
           <span className="brand-logo-frame">
-            <img className="brand-logo" src="/assets/procureiq-logo.png" alt="ProcureIQ" />
+            <ProcureIQLogo className="brand-logo" />
           </span>
         </Link>
 
