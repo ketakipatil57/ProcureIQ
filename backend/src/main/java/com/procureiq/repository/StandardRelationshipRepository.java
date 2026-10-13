@@ -10,4 +10,6 @@ public interface StandardRelationshipRepository extends JpaRepository<StandardRe
     List<StandardRelationship> findBySourceIsNumber(String sourceIsNumber);
 
     List<StandardRelationship> findBySourceIsNumberIn(List<String> sourceIsNumbers);
+
+    List<StandardRelationship> findByTargetIsNumberIn(List<String> targetIsNumbers);
 }

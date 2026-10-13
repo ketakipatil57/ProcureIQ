@@ -3,6 +3,7 @@ package com.procureiq.service;
 import com.procureiq.dto.FastApiMatchRequest;
 import com.procureiq.dto.FastApiMatchResponse;
 import com.procureiq.dto.FastApiStandardResult;
+import com.procureiq.dto.FastApiTextExtractionResponse;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.http.MediaType;
 import org.springframework.http.client.MultipartBodyBuilder;
@@ -84,6 +85,46 @@ public class FastApiClient {
         }
 
         return validateResponse(response, "/match-pdf");
+    }
+
+    public String extractPdfText(String fileName, byte[] pdfBytes) {
+        String multipartFileName = sanitizeFileName(fileName);
+        ByteArrayResource pdfResource = new ByteArrayResource(pdfBytes) {
+            @Override
+            public String getFilename() {
+                return multipartFileName;
+            }
+        };
+        MultipartBodyBuilder multipartBody = new MultipartBodyBuilder();
+        multipartBody.part("file", pdfResource)
+                .filename(multipartFileName)
+                .contentType(MediaType.APPLICATION_PDF);
+
+        FastApiTextExtractionResponse response;
+        try {
+            response = restClient.post()
+                    .uri("/extract-pdf")
+                    .contentType(MediaType.MULTIPART_FORM_DATA)
+                    .body(multipartBody.build())
+                    .retrieve()
+                    .body(FastApiTextExtractionResponse.class);
+        } catch (RestClientResponseException exception) {
+            throw new FastApiClientException(
+                    "FastAPI /extract-pdf returned HTTP " + exception.getStatusCode().value(), exception);
+        } catch (ResourceAccessException exception) {
+            if (hasTimeoutCause(exception)) {
+                throw new FastApiClientException("FastAPI /extract-pdf request timed out", exception);
+            }
+            throw new FastApiClientException("FastAPI is unavailable at the configured base URL", exception);
+        } catch (RestClientException exception) {
+            throw new FastApiClientException(
+                    "FastAPI /extract-pdf returned a malformed or unexpected response", exception);
+        }
+
+        if (response == null || response.getText() == null) {
+            throw new FastApiClientException("FastAPI /extract-pdf returned a malformed or unexpected response", null);
+        }
+        return response.getText();
     }
 
     private List<FastApiStandardResult> validateResponse(FastApiMatchResponse response, String endpoint) {

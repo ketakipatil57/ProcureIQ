@@ -10,3 +10,6 @@ class StandardResult(BaseModel):
 
 class  MatchResponse(BaseModel):
     results: list[StandardResult]
+
+class TextExtractionResponse(BaseModel):
+    text: str

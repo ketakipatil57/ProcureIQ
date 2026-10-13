@@ -2,6 +2,7 @@ import { useContext, useEffect, useMemo, useState } from "react";
 import { PreferencesContext, useAppPreferences } from "./PreferencesContext";
 import { AuthTextContext } from "./auth/AuthTextContext";
 import { authTranslations } from "./auth/translations";
+import { requirementWorkflowTranslations } from "./requirementWorkflowTranslations";
 
 const uiTranslations = {
   en: {
@@ -79,8 +80,8 @@ export function AppPreferencesProvider({ children }) {
   }, [language]);
 
   const t = useMemo(() => (key) =>
-    authTranslations[language]?.[key] ?? uiTranslations[language]?.[key] ?? pageTranslations[language]?.[key] ?? contentTranslations[language]?.[key] ?? adminTranslations[language]?.[key]
-    ?? authTranslations.en?.[key] ?? uiTranslations.en?.[key] ?? pageTranslations.en?.[key] ?? contentTranslations.en?.[key] ?? adminTranslations.en?.[key] ?? key,
+    authTranslations[language]?.[key] ?? uiTranslations[language]?.[key] ?? pageTranslations[language]?.[key] ?? contentTranslations[language]?.[key] ?? adminTranslations[language]?.[key] ?? requirementWorkflowTranslations[language]?.[key]
+    ?? authTranslations.en?.[key] ?? uiTranslations.en?.[key] ?? pageTranslations.en?.[key] ?? contentTranslations.en?.[key] ?? adminTranslations.en?.[key] ?? requirementWorkflowTranslations.en?.[key] ?? key,
   [language]);
 
   return (

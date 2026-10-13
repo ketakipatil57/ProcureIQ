@@ -34,6 +34,11 @@ public class SecurityConfig {
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers(org.springframework.http.HttpMethod.POST,
                                 "/api/auth/register", "/api/auth/login").permitAll()
+                        .requestMatchers(org.springframework.http.HttpMethod.POST,
+                                "/api/requirements/recommendations").authenticated()
+                        .requestMatchers(org.springframework.http.HttpMethod.POST,
+                                "/api/requirements/tender-analysis",
+                                "/api/reference-integrity/audit").authenticated()
                         .anyRequest().authenticated())
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
                 .build();
